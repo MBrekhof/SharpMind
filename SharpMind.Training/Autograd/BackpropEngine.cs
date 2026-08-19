@@ -41,8 +41,6 @@ public sealed class BackpropEngine : IDisposable
     private readonly bool _gemmaScale;
     private bool _disposed;
     private static readonly QuantizationOps _qOps = QuantizationFactory.Create();
-    // Grad sink for a frozen (weight-tied) LM head; see Backward step 1.
-    private Parameter? _frozenHeadScratch;
 
     /// <param name="model">Training transformer (float layers, weight-tied LM head).</param>
     /// <param name="mapping">Gradient kernels. Create with the same SharpMindConfig the model used.</param>
@@ -149,7 +147,7 @@ public sealed class BackpropEngine : IDisposable
     /// w.r.t. logits, shape [Batch*SeqLen, VocabSize] (flat). Accumulates
     /// gradients into the parameters supplied at construction.
     /// </summary>
-    public void Backward(ForwardContext ctx, Tensor<float> dLogits, Tensor<int> tokenIds, CancellationToken cancellationToken = default)
+    public unsafe void Backward(ForwardContext ctx, Tensor<float> dLogits, Tensor<int> tokenIds, CancellationToken cancellationToken = default)
     {
         ThrowIfDisposed();
         ArgumentNullException.ThrowIfNull(ctx);
@@ -166,15 +164,23 @@ public sealed class BackpropEngine : IDisposable
 
         // 1. LM head (weight-tied): dLogits @ head gives dFinalNormOut and
         //    accumulates the head-weight gradient into the embedding parameter.
-        //    A frozen head (LoRA) still needs dFinalNormOut; the kernel computes
-        //    both, so its weight gradient goes to a scratch sink kept for reuse.
-        //    ponytail: frozen head still pays the dW GEMM; a dInput-only kernel
-        //    is CARD-1350's job.
-        var embParam = TryParam(_model.EmbeddingWeight)
-            ?? (_frozenHeadScratch ??= new Parameter("__frozen_head__", _model.EmbeddingWeight));
-        bool headTrainable = !ReferenceEquals(embParam, _frozenHeadScratch);
+        //    A frozen head (LoRA) only needs dFinalNormOut: one blocked matmul
+        //    against headᵀ, no weight gradient. Measured at the 0.5B training
+        //    shape: 3.1 s for the trainable kernel's dInput+dW vs 0.12 s to
+        //    transpose the head plus 1.45 s for the matmul.
+        var embParam = TryParam(_model.EmbeddingWeight);
         using var normedFlat = ctx.FinalNormOut!.Reshape(M, H);
-        var dFinalOut = _mapping.Linear(dLogits, normedFlat, embParam);
+        Tensor<float> dFinalOut;
+        if (embParam is not null)
+        {
+            dFinalOut = _mapping.Linear(dLogits, normedFlat, embParam);
+        }
+        else
+        {
+            using var headT = _model.EmbeddingWeight.Transpose();   // [H, V] = the kernel's [N, K]
+            dFinalOut = new Tensor<float>(M, H);
+            _qOps.QuantizedMatMulOpFor(QuantDType.F32)(dLogits.DataPtr, (byte*)headT.DataPtr, dFinalOut.DataPtr, M, V, H);
+        }
 
         // 2. Final norm backward.
         var dX = NormBackward(_model.FinalNorm, ctx.FinalNormState!, dFinalOut);
@@ -211,7 +217,7 @@ public sealed class BackpropEngine : IDisposable
             }
         }
 
-        if (headTrainable)
+        if (embParam is not null)
         {
             using var flatIds = tokenIds.Reshape(M);
             _mapping.Embedding(dX, flatIds, embParam);
@@ -219,7 +225,7 @@ public sealed class BackpropEngine : IDisposable
         dX.Dispose();
     }
 
-    public void Dispose() { GC.SuppressFinalize(this); _disposed = true; _frozenHeadScratch?.Dispose(); _frozenHeadScratch = null; }
+    public void Dispose() { GC.SuppressFinalize(this); _disposed = true; }
     private void ThrowIfDisposed() => ObjectDisposedException.ThrowIf(_disposed, nameof(BackpropEngine));
 
     // ── Forward ─────────────────────────────────────────────────────────────
@@ -902,23 +908,19 @@ public sealed class BackpropEngine : IDisposable
     private const float Sqrt2PiInv = 0.7978845608028654f;
     private const float GeluCoeff = 0.044715f;
 
-    private static Tensor<float> ProjectHead(Tensor<float> normed, Tensor<float> head, int M, int V)
+    /// <summary>
+    /// logits [M, V] = normed [M, H] · headᵀ. The tied head is stored [V, H],
+    /// which is the [N, K] layout the F32 matmul takes its weight in, so this is
+    /// one kernel call. It used to be a scalar triple loop on one core: at
+    /// 256 tokens × 151936 vocab × 896 hidden that was 35 G multiply-adds per
+    /// step and three quarters of the whole forward+backward time.
+    /// </summary>
+    private static unsafe Tensor<float> ProjectHead(Tensor<float> normed, Tensor<float> head, int M, int V)
     {
         int H = normed.Shape[^1];
         var logits = new Tensor<float>(M, V);
-        var n = normed.Data;
-        var w = head.Data;
-        var l = logits.Data;
-        for (int m = 0; m < M; m++)
-        {
-            for (int v = 0; v < V; v++)
-            {
-                float s = 0f;
-                for (int h = 0; h < H; h++)
-                    s += n[m * H + h] * w[v * H + h];
-                l[m * V + v] = s;
-            }
-        }
+        var fn = _qOps.QuantizedMatMulOpFor(QuantDType.F32);
+        fn(normed.DataPtr, (byte*)head.DataPtr, logits.DataPtr, M, H, V);   // normed is contiguous [M, H] whatever its rank
         return logits;
     }
 

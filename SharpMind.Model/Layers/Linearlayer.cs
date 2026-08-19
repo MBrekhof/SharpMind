@@ -117,9 +117,13 @@ public abstract class LinearLayer : IDisposable
     {
         if (_disposed) return;
         _disposed = true;
+        OnDispose();
         if (_ownsWeight) _weight.Dispose();
         if (_ownsBias) _bias?.Dispose();
     }
+
+    /// <summary>Hook for subclasses that own extra tensors (e.g. LoRA adapters).</summary>
+    protected virtual void OnDispose() { }
 
     /// <summary>
     /// Adds the bias to every row of <paramref name="result"/> in place.

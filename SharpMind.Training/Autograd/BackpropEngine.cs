@@ -1029,53 +1029,48 @@ public sealed class BackpropEngine : IDisposable
     /// <summary>
     /// Linear backward for a layer whose weight is stored [In, Out]. Returns
     /// dInput [B, In] and accumulates dW / dBias into their parameters when they
-    /// are trainable. A frozen weight (not in the parameter list) costs one
-    /// matmul and no weight-sized allocation: the F32 matmul takes its weight as
-    /// [N, K] = [In, Out], which is exactly how the layer stores W. A
-    /// <see cref="TrainingLinearLayer"/> with a LoRA adapter additionally gets
-    /// dA, dB and the adapter's share of dInput.
+    /// are trainable; a frozen weight (not in the parameter list) gets neither.
+    /// Both products run on the F32 matmul kernel, whose weight operand is
+    /// [N, K]: for dInput that is W as stored, for dW it is dOutᵀ — so the only
+    /// transposes are activation-sized. A <see cref="TrainingLinearLayer"/> with
+    /// a LoRA adapter additionally gets dA, dB and the adapter's share of dInput.
     ///
-    /// GradientMapping.Linear expects its weight as [Out, In] (PyTorch layout),
-    /// so the trainable path feeds it a transposed weight through a throwaway
-    /// parameter and scatters the produced [Out, In] gradient back into the real
-    /// [In, Out] parameter. (The embedding/LM-head weight is already [Vocab,
-    /// Hidden] = [Out, In], so the head path calls _mapping.Linear directly.)
+    /// This used to go through GradientMapping.Linear, which wants its weight as
+    /// [Out, In] (PyTorch layout): a transposed copy of W per call, a throwaway
+    /// weight-sized Parameter for it to accumulate into, a scalar column-strided
+    /// scatter back into the real [In, Out] gradient, and a dInput kernel that
+    /// streams the weight once per row. (The LM head is stored [Vocab, Hidden] =
+    /// [Out, In] already, so the trainable head still calls _mapping.Linear.)
     /// </summary>
     private unsafe Tensor<float> LinearBackward(Tensor<float> dOutput, Tensor<float> input, LinearLayer layer)
     {
         var weight = layer.Weight;
         int In = weight.Shape.Rows, Out = weight.Shape.Cols, B = dOutput.Shape.Rows;
-        var biasParam = layer.Bias is null ? null : TryParam(layer.Bias);
-        Tensor<float> dInput;
+        var fn = _qOps.QuantizedMatMulOpFor(QuantDType.F32);
 
-        if (TryParam(weight) is { } orig)
+        // dInput = dOut · Wᵀ: the kernel's weight operand is [N, K] = [In, Out],
+        // which is how the layer stores W — no transpose, frozen or not.
+        var dInput = new Tensor<float>(B, In);
+        fn(dOutput.DataPtr, (byte*)weight.DataPtr, dInput.DataPtr, B, Out, In);
+
+        if (TryParam(weight) is { } wParam)
         {
-            using var wT = weight.Transpose(); // [Out, In]
-            using var tmpW = new Parameter("__transposed__", wT);
-            dInput = _mapping.Linear(dOutput, input, tmpW, biasParam);
-
-            var src = tmpW.Grad.Data;
-            var dst = orig.Grad.Data;
-            for (int o = 0; o < Out; o++)
-            {
-                var srcRow = src.Slice(o * In, In);
-                for (int i = 0; i < In; i++)
-                    dst[i * Out + o] += srcRow[i];
-            }
+            // dW [In, Out] += xᵀ · dOut. Rows of the product are xᵀ [In, B]; the
+            // weight operand is dOutᵀ [Out, B] — both activation-sized transposes.
+            // The kernel overwrites, so accumulate through a scratch of W's size.
+            using var xT = input.Transpose();
+            using var dyT = dOutput.Transpose();
+            using var dW = new Tensor<float>(In, Out);
+            fn(xT.DataPtr, (byte*)dyT.DataPtr, dW.DataPtr, In, B, Out);
+            wParam.AccumulateGrad(dW.Data);
         }
-        else
+        if (layer.Bias is not null && TryParam(layer.Bias) is { } bParam)
         {
-            var fn = _qOps.QuantizedMatMulOpFor(QuantDType.F32);
-            dInput = new Tensor<float>(B, In);
-            fn(dOutput.DataPtr, (byte*)weight.DataPtr, dInput.DataPtr, B, Out, In);
-            if (biasParam is not null)
+            var g = bParam.Grad.Data;
+            for (int b = 0; b < B; b++)
             {
-                var g = biasParam.Grad.Data;
-                for (int b = 0; b < B; b++)
-                {
-                    var row = dOutput.Data.Slice(b * Out, Out);
-                    for (int o = 0; o < Out; o++) g[o] += row[o];
-                }
+                var row = dOutput.Data.Slice(b * Out, Out);
+                for (int o = 0; o < Out; o++) g[o] += row[o];
             }
         }
 

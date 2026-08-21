@@ -36,6 +36,7 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.AI" Version="10.9.0" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.5.1" />
     <PackageReference Include="xunit" Version="2.9.3" />
     <PackageReference Include="xunit.runner.visualstudio" Version="3.1.5">
@@ -48,6 +49,7 @@
     <ProjectReference Include="..\SharpMind.Core\SharpMind.Core.csproj" />
     <ProjectReference Include="..\SharpMind.CUI\SharpMind.CUI.csproj" />
     <ProjectReference Include="..\SharpMind.Data\SharpMind.Data.csproj" />
+    <ProjectReference Include="..\SharpMind.Extensions.AI\SharpMind.Extensions.AI.csproj" />
     <ProjectReference Include="..\SharpMind.GPU\SharpMind.GPU.csproj" />
     <ProjectReference Include="..\SharpMind.Inference\SharpMind.Inference.csproj" />
     <ProjectReference Include="..\SharpMind.Model\SharpMind.Model.csproj" />

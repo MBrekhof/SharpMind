@@ -7,6 +7,7 @@
       "SharpMind.Core\\SharpMind.Core.csproj",
       "SharpMind.Data.Parquet\\SharpMind.Data.Parquet.csproj",
       "SharpMind.Data\\SharpMind.Data.csproj",
+      "SharpMind.Extensions.AI\\SharpMind.Extensions.AI.csproj",
       "SharpMind.GPU\\SharpMind.GPU.csproj",
       "SharpMind.Inference\\SharpMind.Inference.csproj",
       "SharpMind.Model\\SharpMind.Model.csproj",

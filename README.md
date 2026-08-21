@@ -201,6 +201,32 @@ The net effect: a model whose full weights don't fit in RAM can still run, tradi
 
 ---
 
+## Microsoft.Extensions.AI (`IChatClient`)
+
+`SharpMind.Extensions.AI` exposes a chat session as an `IChatClient`, so a local model drops into anything built on the standard .NET AI abstractions — and tools work the M.E.AI way, with `FunctionInvokingChatClient` running them on the client side:
+
+```csharp
+using Microsoft.Extensions.AI;
+using SharpMind.Extensions.AI;
+
+// model, tokenizer, meta loaded as in the Quick Start
+await using var session = new ChatSession<StandardGeneratorBuilder<KVCacherBuilder>, KVCacherBuilder>(model, tokenizer, meta);
+
+using IChatClient client = new FunctionInvokingChatClient(new SharpMindChatClient(session));
+
+var options = new ChatOptions
+{
+    Tools = [AIFunctionFactory.Create((string city) => $"{city}: 19°C", "get_weather", "Current weather for a city.")],
+};
+
+await foreach (var update in client.GetStreamingResponseAsync([new(ChatRole.User, "Weather in Delft?")], options))
+    Console.Write(update.Text);
+```
+
+One client is one session: one model, one KV cache, one conversation at a time (concurrent calls queue). Send the growing message list each call as usual — only the new messages are fed to the model, so the KV cache carries across turns and across a tool round-trip. `Temperature`, `TopP`, `TopK`, `MaxOutputTokens`, `Tools`/`ToolMode` and `Instructions` are honoured; `StopSequences`, `Seed`, `ResponseFormat` and the penalties are not. Thinking-model reasoning arrives as `TextReasoningContent`; `UsageDetails` carries prefill/generated token counts and `AdditionalProperties` the tokens-per-second and time-to-first-token. See `SharpMind.Samples/Examples/ChatClientExample.cs`.
+
+---
+
 ## Inference deep dive
 
 ### Decoding strategies
@@ -275,6 +301,7 @@ Expect the training API surface (config records, trainer entry points) to change
 SharpMind.Core          Zero-dependency tensor primitives, quantization, activations, memory pooling
 SharpMind.Model         Architectures, layers, GGUF loading, model config
 SharpMind.Inference     Generators (standard/speculative/Medusa), chat, agents, sampling
+SharpMind.Extensions.AI Microsoft.Extensions.AI IChatClient over a chat session (tool calling included)
 SharpMind.Training      Autograd, optimizers, LoRA
 SharpMind.Tokenization  BPE tokenizer, vocab, serialization
 SharpMind.Data          Data sources, cleaning pipeline, batching
@@ -296,7 +323,7 @@ See [CHANGELOG.md](CHANGELOG.md) for release history.
 - [ ] AVX512 Kernels
 - [ ] Additional Model Support
 - [ ] Optimiations
-- [ ] Microsoft IChatClient and or other services.
+- [x] Microsoft IChatClient and or other services.
 - [ ] Common tools, GREP, GIT etc
 - [ ] Limit breaker(Project Goku), int.MaxValue element-count limit workaround. Solutions not excuses.
 

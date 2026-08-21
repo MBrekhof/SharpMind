@@ -24,6 +24,8 @@ that are already on `master`.
 - Deterministic test reference data — `TinyReferenceModel` builds a seed-fixed reference `.SMM` in milliseconds so the session/CUI tests exercise the full load → chat path without loading a real model file.
 - KV-cache persistence: sessions now save and restore the pre-filled KV cache alongside chat history. On resume, if the prompt (system prompt + tools + history) hasn't changed, the expensive prefill is skipped entirely — the cache is restored from disk and the first user turn extends it incrementally.
 - Quantized-resident loading no longer allocates a dead full-F32 weight per inference layer — `InferenceLinearLayer` passes `allocateFullWeight: false` to the base constructor, cutting peak memory by ~28 GB on a 7B model (PR #8).
+- `SharpMind.Extensions.AI` — `SharpMindChatClient`, a `Microsoft.Extensions.AI.IChatClient` over `IChatSession`. Streams text and thinking (`TextReasoningContent`), keeps the session history in step with the caller's message list so the KV cache survives across turns, and does tool calling the M.E.AI way: the model's call is returned as `FunctionCallContent`, `FunctionInvokingChatClient` runs it, and the result continues the same turn.
+- `IChatSession.ReturnToolCalls` / `ChatStatus.ToolCall` / `ChatStreamEntry.ToolCall` — a host can own the tool loop: the session hands a parsed tool call back instead of dispatching it. `GetResponseStreamAsync(null)` continues a turn without adding a User message. Tool-call JSON now also accepts `"name"` as an alias for `"tool"` (what native Qwen/Llama-3 chat templates make models emit).
 
 ### Changed
 
@@ -39,6 +41,7 @@ that are already on `master`.
 
 ### Fixed
 
+- Think-block detection re-armed on the already-closed `<think>` tag, so every other token after a think block was flagged as thinking (hidden with `ShowThinking` off; split into reasoning/text by any host that routes them apart). The block is now open only when the last `<think>` comes after the last `</think>`.
 - CUI option cloning silently dropped fields (`UserName`, and the new knobs) on every session launch/resume — launched sessions now honor all options.
 - Broken solution restore; `Transformer.DisposeCache` properly wired into disposal.
 - KV cache `Snapshot` used 32-bit arithmetic that could overflow at full context windows (`KVCache`, `PagedKVCache`, `QuantizedKVCache`).

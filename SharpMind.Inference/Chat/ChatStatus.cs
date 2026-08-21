@@ -20,5 +20,12 @@ public enum ChatStatus
     /// <summary>That chat was interrupted, cancelled or failed.</summary>
     Interrupted,
     /// <summary>Completed.</summary>
-    Complete
+    Complete,
+    /// <summary>
+    /// The model produced a tool call and <see cref="IChatSession.ReturnToolCalls"/>
+    /// is set: the parsed call is in <see cref="ChatStreamEntry.ToolCall"/>, nothing
+    /// was dispatched, and the turn is over until the caller adds the result and
+    /// continues with <see cref="IChatSession.GetResponseStreamAsync"/>.
+    /// </summary>
+    ToolCall
 }

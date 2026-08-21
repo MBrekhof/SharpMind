@@ -301,6 +301,7 @@ public sealed class ChatSession<T, K> : IChatSession where K : IKVCacheBuilder, 
     /// streaming visible chain-of-thought before the response.
     /// </summary>
     public bool EnableThinking { get; set; }
+    public bool ReturnToolCalls { get; set; }
     /// <summary>JSON array of tool/function definitions (from AgentBuilder.ToolDefinitions).</summary>
     public string? ToolDefinitionsJson { get; set; }
     public string UserName { get => _userName; set => _userName = value ?? "User"; }
@@ -636,6 +637,10 @@ private void ThrowIfDisposed()
         {
             var node = JsonNode.Parse(repaired);
             if (node is not JsonObject obj) return false;
+            // "name" is what native chat templates (Qwen, Llama-3) make the model
+            // emit; normalise it so every caller sees one shape.
+            if (obj["tool"] is null && obj["name"]?.GetValueKind() == JsonValueKind.String)
+                obj["tool"] = obj["name"]!.GetValue<string>();
             if (obj["tool"]?.GetValueKind() != JsonValueKind.String) return false;
             if (obj["arguments"] is not JsonObject) return false;
             parsed = obj;
@@ -790,15 +795,18 @@ private void ThrowIfDisposed()
     public void Interrupt() => _turnCts?.Cancel();
 
     public async IAsyncEnumerable<ChatStreamEntry> GetResponseStreamAsync(
-        string userInput,
+        string? userInput,
         ChatArtifact[]? artifacts = null,
         [EnumeratorCancellation] CancellationToken ct = default)
     {
         ThrowIfDisposed();
         EnsureInitialized();
 
-        _history.Add(new ChatMessage { Role = ChatRole.User, Content = userInput, Name = _userName, Artifacts = artifacts });
-        InvalidateHistoryCache();
+        if (userInput is not null)
+        {
+            _history.Add(new ChatMessage { Role = ChatRole.User, Content = userInput, Name = _userName, Artifacts = artifacts });
+            InvalidateHistoryCache();
+        }
 
         // Agentic loop: keep generating until the model produces a plain response
         // rather than a tool call, or until MaxToolCallsPerTurn is reached.
@@ -950,6 +958,27 @@ private void ThrowIfDisposed()
 
             _progress?.Report(1f);
             var responseText = _responseBuffer.ToString();
+
+            // The host owns the tool loop (e.g. an IChatClient adapter): hand the
+            // call back instead of dispatching it. The turn ends here; the host adds
+            // the result and calls GetResponseStreamAsync(null) to continue.
+            if (ReturnToolCalls
+                && TryParseToolCall(responseText, out var returnedCall)
+                && returnedCall is not null)
+            {
+                _history.Add(ChatMessage.Agent(responseText));
+                InvalidateHistoryCache();
+
+                yield return new ChatStreamEntry
+                {
+                    Status = ChatStatus.ToolCall,
+                    ToolCall = returnedCall,
+                    IsComplete = true,
+                    TokensPerSecond = _generator.TokensPerSecond,
+                    TimeToFirstToken = _generator.TimeToFirstToken,
+                };
+                yield break;
+            }
 
             // Tool call detection. Guarded on RegisteredToolNames.Count > 0 so a
             // session launched with tools disabled (or an agent builder with no

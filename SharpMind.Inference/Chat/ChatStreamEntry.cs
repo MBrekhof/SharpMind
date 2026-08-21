@@ -1,3 +1,5 @@
+using System.Text.Json.Nodes;
+
 namespace SharpMind.Inference.Chat;
 
 /// <summary>
@@ -29,4 +31,10 @@ public sealed class ChatStreamEntry
     /// Null for normal streaming and for genuine cancellation.
     /// </summary>
     public string? Error { get; init; }
+
+    /// <summary>
+    /// The parsed tool call — <c>{"tool":"name","arguments":{…}}</c> — on a
+    /// <see cref="ChatStatus.ToolCall"/> entry; null otherwise.
+    /// </summary>
+    public JsonObject? ToolCall { get; init; }
 }

@@ -22,6 +22,16 @@ public interface IChatSession : IAsyncDisposable
     public IReadOnlyList<int>? StopTokenIds { get; set; }
     public bool ShowThinking { get; set; }
     public bool EnableThinking { get; set; }
+    /// <summary>
+    /// When true, a tool call the model produces is handed back to the caller as a
+    /// <see cref="ChatStatus.ToolCall"/> entry instead of being dispatched through
+    /// the agent builder. The caller runs the tool, adds the result with
+    /// <see cref="AddMessage(ChatRole, string)"/> (as <c>Tool result: …</c>, the
+    /// same shape the built-in loop feeds back), and continues the turn with
+    /// <see cref="GetResponseStreamAsync"/> and a null <c>userInput</c>.
+    /// Defaults to false.
+    /// </summary>
+    public bool ReturnToolCalls { get; set; }
     public string UserName { get; set; }
     public float? TokensPerSecond { get; }
     public float? TimeToFirstToken { get; }
@@ -51,6 +61,12 @@ public interface IChatSession : IAsyncDisposable
     public void ResetCaches();
     public void Interrupt();
     public void InitializeChat(IProgress<float>? progress = null);
+    /// <summary>
+    /// Streams one turn. <paramref name="userInput"/> is appended as a User message
+    /// first; pass null to continue from the history as it stands (for example
+    /// after a tool result was added).
+    /// </summary>
+    public IAsyncEnumerable<ChatStreamEntry> GetResponseStreamAsync(string? userInput, ChatArtifact[]? artifacts = null, CancellationToken ct = default);
     public ChatSessionSnapshot GetSnapshot();
     public void LoadSnapshot(ChatSessionSnapshot snapshot);
     public Task<ChatMessage[]> StartChatAsync(Func<Task<ChatMessage>> prompt, Action<ChatStreamEntry> response, CancellationToken token = default);

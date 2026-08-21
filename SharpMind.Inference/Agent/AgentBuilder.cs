@@ -283,9 +283,13 @@ namespace SharpMind.Inference.Agent
         /// </summary>
         private const int CompactToolBudget = 4000; // ~1000 tokens of compact JSON
 
-        private string BuildCompactToolList()
+        /// <summary>
+        /// Tool definitions as compact JSON for a system prompt, trimmed to ~1000 tokens —
+        /// shared with hosts that describe tools to the model themselves.
+        /// </summary>
+        public static string BuildCompactToolList(JsonArray toolDefinitions)
         {
-            string full = ToolDefinitions.ToJsonString();
+            string full = toolDefinitions.ToJsonString();
             if (full.Length <= CompactToolBudget)
                 return full;
 
@@ -293,7 +297,7 @@ namespace SharpMind.Inference.Agent
             // descriptions/defaults, keep name + args (name/type) + required.
             var reduced = new JsonArray();
             int detailDropped = 0;
-            foreach (var item in ToolDefinitions)
+            foreach (var item in toolDefinitions)
             {
                 var tool = (JsonObject)item!;
                 var copy = new JsonObject { ["name"] = tool["name"]!.DeepClone() };
@@ -331,7 +335,7 @@ namespace SharpMind.Inference.Agent
                 foreach (var t in reduced.OfType<JsonObject>())
                     t.Remove("description");
                 compact = reduced.ToJsonString();
-                detailDropped = ToolDefinitions.Count;
+                detailDropped = toolDefinitions.Count;
             }
 
             return detailDropped > 0
@@ -540,7 +544,7 @@ namespace SharpMind.Inference.Agent
 
                 sb.AppendLine();
                 sb.AppendLine("## Available Tools");
-                sb.AppendLine(BuildCompactToolList());
+                sb.AppendLine(BuildCompactToolList(ToolDefinitions));
 
                 sb.AppendLine();
                 sb.AppendLine("## Final Response Format");

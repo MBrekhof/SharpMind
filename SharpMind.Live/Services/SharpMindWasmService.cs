@@ -148,7 +148,14 @@ public static class SharpMindEngine
                     entry.Status == ChatStatus.Interrupted)
                     break;
 
-                if (entry.Token is not null)
+                // Status-only entries reuse Token for their status text
+                // ("Prefilling 50.25%"), so appending every non-null Token wrote
+                // the progress readout into the reply as if the model had said
+                // it. Only Responding/Thinking entries are model output.
+                if (entry.Status is not (ChatStatus.Responding or ChatStatus.Thinking))
+                    continue;
+
+                if (entry.Token is { Length: > 0 })
                 {
                     sb.Append(entry.Token);
                     tokens++;

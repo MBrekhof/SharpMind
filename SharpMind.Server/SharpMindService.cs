@@ -56,6 +56,13 @@ public sealed class SharpMindService : IAsyncDisposable
     /// </summary>
     public IHost BuildHost()
     {
+        // Cache it. This used to build and return without assigning _host, so
+        // PreloadModelAsync — which reads _host — always threw "Host not built"
+        // even though RunServiceAsync calls BuildHost() immediately before it,
+        // and StartAsync then built a SECOND host via its `_host ??=`. The
+        // startup preload has therefore never run. (CARD-1445)
+        if (_host is not null) return _host;
+
         var builder = WebApplication.CreateBuilder();
 
         builder.Services.AddSharpMindServer(opts =>
@@ -70,19 +77,25 @@ public sealed class SharpMindService : IAsyncDisposable
         var app = builder.Build();
         app.Urls.Add($"http://{Options.Host}:{Options.Port}");
         MapEndpoints(app);
+        _host = app;
         return app;
     }
 
     /// <summary>
-    /// Load a single model by name. Useful before the host is built (e.g. to
-    /// pre-warm a model at startup). Requires that <see cref="BuildHost"/>
-    /// was called first.
+    /// Load a single model by name at startup and warm its inference kernels.
+    /// Calls <see cref="BuildHost"/> if it has not run yet.
+    /// Returns false when <paramref name="modelId"/> is not in the models directory.
     /// </summary>
-    public async Task PreloadModelAsync(string modelId, IProgress<string>? progress = null, CancellationToken ct = default)
+    /// <remarks>
+    /// Routes through <see cref="ModelManager.PreloadAsync"/>, not
+    /// <see cref="ModelManager.LoadAsync"/> — only the former runs the kernel
+    /// warm-up, and going through the latter is what left the warm-up unreachable.
+    /// </remarks>
+    public async Task<bool> PreloadModelAsync(string modelId, IProgress<string>? progress = null, CancellationToken ct = default)
     {
-        var app = (WebApplication)(_host ?? throw new InvalidOperationException("Host not built."));
+        var app = (WebApplication)(_host ??= (WebApplication)BuildHost());
         var modelManager = app.Services.GetRequiredService<ModelManager>();
-        await modelManager.LoadAsync(modelId, progress ?? CreateProgress(), ct);
+        return await modelManager.PreloadAsync(modelId, progress ?? CreateProgress(), ct);
     }
 
     /// <summary>

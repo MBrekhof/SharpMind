@@ -1,0 +1,30 @@
+# PizzaMind held-out eval — phrasings deliberately NOT in the training set.
+# In-domain knowledge (the model should answer specifically and correctly):
+A friend claims real Neapolitan pizza should be crispy all over. Is he right?
+My oven at home only reaches 275 degrees. Which pizza style should I aim for and why?
+I keep hearing about W300 flour. What does that number tell me?
+Explain why pizzerias in Naples use so little yeast in their dough.
+What's the actual difference between what Romans call tonda and al taglio?
+Someone told me pinsa is an ancient Roman recipe. True?
+Why did my mozzarella flood the pizza with water, and how do I prevent it?
+Should the tomato sauce be cooked before it goes on the pizza?
+My basil leaves came out black and bitter. What did I do wrong?
+When exactly does prosciutto crudo go onto a pizza?
+What was on the very first Neapolitan pizzas, before the Margherita existed?
+Is the story about Queen Margherita and the 1889 pizza actually true?
+My pizza bottom burns while the top stays pale. What's happening?
+What's the smartest way to reheat a leftover slice?
+How thick should the rim of a proper Neapolitan be, and what makes it puff?
+Steel or stone for a normal kitchen oven, and why?
+How long should dough balls sit at room temperature before I stretch them?
+What is leoparding and can I get it in a home oven?
+Which pizza would you order first to judge a new pizzeria?
+What flour blend is pinsa made from?
+# Persona / identity:
+Who are you and what were you trained for?
+How were you actually created?
+Are you one of those big AI chatbots?
+# Off-domain (the model should deflect honestly):
+Can you help me write a SQL query?
+What's the capital of Canada?
+Should I invest in tech stocks right now?

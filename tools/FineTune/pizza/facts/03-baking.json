@@ -1,0 +1,427 @@
+{
+  "facts": [
+    {
+      "id": "wood-vs-electric",
+      "q": [
+        "Is a wood-fired oven necessary for good pizza?",
+        "Wood-fired versus electric pizza ovens?",
+        "Does wood fire make pizza taste better?",
+        "Do I need a wood oven for Neapolitan pizza?",
+        "Are electric pizza ovens as good as wood?",
+        "wood oven vs electric pizza quality",
+        "My brother-in-law insists real pizza can only come out of a wood-burning oven. Is he right?",
+        "Isn't the smoke from the wood what gives Neapolitan pizza its flavour?",
+        "I'm opening a small pizzeria and the wood oven costs twice as much - is an electric deck a downgrade?",
+        "Is it the fuel or the temperature that makes a pizza oven good?",
+        "Why do some pizzerias in Naples use electric ovens now?",
+        "Tell me straight whether I need to burn wood to make proper pizza.",
+        "So without a wood fire the pizza will not be real Neapolitan, correct?",
+        "Electric pizza oven is good enough or wood is must?",
+        "What actually matters in a pizza oven, the flame or the heat?",
+        "Does the pizza taste of smoke after a wood-fired bake?"
+      ],
+      "a": "Wood is tradition and theater, but the pizza mostly cares about temperature, not fuel. Modern electric deck ovens hit Neapolitan heat and hold it more evenly than wood, which is why even some certified pizzerias now run electric. The 'wood smoke flavor' in a 90-second bake is largely romance - the char and blistering come from heat, not smoke. That said, an STG-compliant Neapolitan still formally requires the wood oven.",
+      "alt": [
+        "Heat is heat. In a 60-90 second bake there's little time for smoke to flavor anything - blind tastings regularly embarrass the wood purists. Wood gives you the ritual, the glow, and the STG checkbox; a good electric deck gives you consistency. The dough can't tell.",
+        "No, you do not need wood, and I'll say it plainly because the myth is stubborn: the claim that only a wood fire makes real pizza is wrong. What the dough responds to is temperature - 430-480°C for Neapolitan - and a modern electric deck reaches and holds that more evenly than a log fire. Wood adds ritual and the STG paperwork requirement, not a measurable smoke flavor in a 90-second bake.",
+        "Temperature, not fuel. People say the smoke is what flavors a Neapolitan pizza; it is not - in 60 to 90 seconds there is no time for smoke to penetrate anything, and the char you taste comes from heat hitting a wet dough. Electric decks are why plenty of certified pizzerias now bake without a single log. The one honest caveat: the STG rules still formally name a wood oven."
+      ]
+    },
+    {
+      "id": "home-oven-limit",
+      "q": [
+        "How hot does a home oven get for pizza?",
+        "Can a home oven make Neapolitan pizza?",
+        "Why can't I make real Neapolitan pizza at home?",
+        "What temperature do home ovens reach?",
+        "My oven only goes up to 250 degrees - can I still make pizza?",
+        "If I put my oven on max, will I get a Neapolitan pizza?",
+        "home oven max temperature pizza style",
+        "Which pizza style should I aim for in a normal kitchen oven?",
+        "A friend says any oven can make Neapolitan if you preheat long enough. True?",
+        "Isn't the reason my home pizza is bad just that I'm not preheating long enough?",
+        "Is it the oven temperature or my dough that stops me from making Neapolitan at home?",
+        "I have normal electric oven, 275 celsius maximum. What pizza can I make?",
+        "Be honest, what kind of pizza can a domestic oven actually produce?",
+        "What's the realistic ceiling for pizza in a kitchen oven?",
+        "So a home oven at 300 degrees can bake a Neapolitan in 90 seconds, right?",
+        "What temperature is a home oven missing compared to a pizzeria?"
+      ],
+      "a": "A domestic oven tops out around 250 to 300 degrees Celsius - roughly half the heat of a Neapolitan oven's floor. At that temperature a 90-second bake is physically impossible, so true Neapolitan is off the menu at home. The good news: Roman-style and New-York-adjacent thin crusts are designed for exactly that range, and a steel plate plus the broiler closes much of the gap.",
+      "alt": [
+        "About 275°C on a good day, against the 450-plus a Neapolitan needs. Don't fight it - bake the styles that love your oven. Roman tonda at 300 degrees is not a compromise, it's the correct temperature for the style.",
+        "Let's kill the hopeful version first: no, a kitchen oven cannot make a true Neapolitan pizza, no matter how long you preheat. It stops at 250-300°C; Neapolitan needs 430-480°C on the floor, and the 60-90 second bake simply does not happen at half that heat. What it can make brilliantly is Roman tonda and a thin New York-adjacent pie - at 250-275°C, aim for Roman style and you are baking at the temperature the style was designed for.",
+        "You are missing roughly 200 degrees, not technique. Domestic ovens peak around 250 to 300 degrees Celsius; a Neapolitan floor sits at 430-480. The claim that a long preheat closes that gap is false - preheating fully heats the steel, it does not raise the ceiling. So point the oven at what it does well: Roman tonda or a crisp thin round at 250-275°C on a steel, the style that belongs at that temperature, and no apology needed."
+      ]
+    },
+    {
+      "id": "steel-vs-stone",
+      "q": [
+        "Pizza steel or pizza stone?",
+        "Which is better, baking steel or stone?",
+        "Should I buy a pizza stone or a steel?",
+        "What's the difference between a pizza steel and a stone?",
+        "steel vs stone home oven",
+        "Which heats the pizza base faster, steel or stone?",
+        "My friend says a stone is better than a steel for a home oven. Is he right?",
+        "Isn't a stone more authentic than a steel because pizzerias use stone floors?",
+        "Which one conducts heat faster - the steel or the stone?",
+        "I've got a normal electric oven and a bag of pizza ambition. Steel or stone?",
+        "Explain to me why anyone would buy a steel when stones are cheaper.",
+        "So the steel is for pizza ovens and the stone is for home ovens, right?",
+        "I bought pizza stone but bottom of pizza is always pale. Is steel better?",
+        "Why does my pizza base come out pale on a stone in the home oven?",
+        "Does a pizza steel burn the bottom in a real pizza oven?",
+        "Which surface should I use at 275 degrees and which at 450?"
+      ],
+      "a": "Steel wins in a home oven. Steel conducts heat several times faster than ceramic, so at 275 degrees it delivers the bottom-crust browning a stone can only manage at temperatures your oven doesn't reach. Stones shine in actual pizza ovens at 400-plus, where steel would scorch the base. Home oven: steel below, broiler above - the poor man's Naples.",
+      "alt": [
+        "At home, steel. Its thermal conductivity punches the base hard even at domestic temperatures - a stone at 275°C gives you a blond, sad bottom. In a real 450-degree oven the logic flips: there, steel burns the underside before the top is done, and stone's gentleness becomes a virtue.",
+        "Stone is not the better home choice, whatever the shop assistant said, and the idea that steel belongs in pizza ovens while stone belongs at home is exactly backwards. Steel conducts heat several times faster than ceramic, which is why it browns a base at 275°C where a stone leaves it blond. Stones belong in real ovens at 400-plus, where steel would scorch the underside. Kitchen oven: steel. Wood or gas oven: stone.",
+        "Faster conduction is the whole argument, and it belongs to steel, not stone. A stone at domestic temperature gives up its heat too slowly, so the base stays pale while the top finishes; steel dumps heat into the dough fast enough to brown it at 275 degrees. In a 450-degree pizza oven the same speed becomes a liability - steel burns the bottom before the top is done - which is why those ovens run stone floors. Pick by oven, and at home the answer is steel."
+      ]
+    },
+    {
+      "id": "steel-or-stone-decision",
+      "q": [
+        "For a normal kitchen oven, do I want a steel or a stone?",
+        "Steel or stone - just give me the decision rule.",
+        "Which is for the home oven and which is for the wood-fired oven, steel or stone?",
+        "I keep hearing steel for pizza ovens, stone for home ovens - is that the rule?",
+        "How do I decide between a baking steel and a baking stone?",
+        "steel stone decision rule oven type",
+        "My electric oven maxes at 275. Steel or stone, and why?",
+        "Someone told me the stone is the right choice for a domestic oven because steel gets too hot. Correct?",
+        "Isn't steel overkill for a home oven?",
+        "Which is faster at conducting heat and which oven does that suit?",
+        "I have kitchen oven only, no pizza oven. What surface I must buy?",
+        "Explain the steel-versus-stone choice as if I'm standing in the shop right now.",
+        "When would a stone be the right choice over a steel?",
+        "Is a stone ever wrong in a home oven, or just slower?"
+      ],
+      "a": "The rule is short: kitchen oven, steel; real pizza oven, stone. Steel conducts heat several times faster than ceramic, so at a domestic 250-300°C it pushes enough heat into the base to brown it, where a stone leaves the bottom pale. Above 400°C that same speed scorches the underside, so pizza ovens run stone floors. If you have heard the reverse - stone for home, steel for the pizza oven - that version is inverted, and it costs you a blond bottom every time.",
+      "alt": [
+        "Steel at home, stone in the pizza oven - and not the other way around. I say it twice because the inverted claim, that a stone suits the domestic oven while steel is for the professional one, is common and wrong. The physics decides it: steel moves heat fast, which is exactly what a weak 275-degree oven needs and exactly what a 450-degree oven does not. Standing in the shop with a normal kitchen oven at home, buy the steel.",
+        "Ask one question: how hot does your oven go? Under 300°C, which is every domestic oven, you want the fast conductor, and that is steel - it sears the base at temperatures where ceramic only warms it. At 400-plus, in a wood, gas or electric deck oven, the slow conductor is the virtue and stone is right. A stone in a home oven is not dangerous, just slower and paler; a steel in a Neapolitan oven burns the underside.",
+        "Home oven means steel; there is no scenario in a normal kitchen where the stone wins. Steel is the faster heat conductor, several times faster than a ceramic stone, and speed of heat transfer is precisely what a 250-275°C oven lacks. Stone earns its place only at pizza-oven temperatures, 400°C and up, where steel's speed would char the base before the toppings cook. Anyone telling you steel is for pizzerias and stone is for home has the pair reversed."
+      ]
+    },
+    {
+      "id": "broiler-trick",
+      "q": [
+        "What's the broiler trick for home pizza?",
+        "How do I use the grill element for pizza?",
+        "How can I bake pizza faster at home?",
+        "What's the best home oven pizza method?",
+        "broiler steel pizza method",
+        "Can I use the top grill element to get a better crust at home?",
+        "My pizza top never gets any color at home. Any trick?",
+        "Where in the oven should the steel go for the broiler method?",
+        "Should the broiler stay on while the pizza is baking, or just for preheating?",
+        "I heard you should turn the broiler off before launching the pizza. Is that right?",
+        "Isn't putting the pizza right under the grill just going to burn it?",
+        "Is it the broiler or the steel that does the work in the home method?",
+        "Walk me through the fastest way to bake pizza in a regular oven.",
+        "How long does a pizza take with the steel-and-broiler method?",
+        "I have oven with grill on top. How I use it for pizza like pizzeria?",
+        "What's the closest a kitchen oven gets to a pizzeria bake?"
+      ],
+      "a": "Preheat a steel on a high rack under a screaming-hot broiler for 45 minutes to an hour, then launch the pizza onto the steel with the broiler still on: the steel sears the base while the element blisters the top. Bake time drops to 3-4 minutes and you get genuine char at home. Watch it like a hawk - the line between leopard spots and charcoal is about twenty seconds.",
+      "alt": [
+        "Steel high in the oven, broiler on full, long preheat, pizza straight under the flame. It compresses a home bake to about three minutes and finally gives the top the color the base always got. The first one you burn is the tuition fee.",
+        "Put the steel on a high rack, a few inches under the broiler, and preheat with the broiler on for 45 to 60 minutes. Then launch with the element still going - do not switch it off first, that is the mistake that leaves you with a browned base and a pale top. The steel handles the underside, the broiler handles the blisters, and the whole thing is over in three to four minutes. Stay in front of the oven; twenty seconds separates spotted from cremated.",
+        "Both halves matter and they do different jobs: the steel sears the base by conduction, the broiler chars the top by radiation, and only together do they compress a home bake to about three minutes with real color on the rim. Preheat the pair for the better part of an hour, launch under the live element, give it a half turn partway through, and pull it the moment the cornicione spots. Nobody gets the first one right."
+      ]
+    },
+    {
+      "id": "preheat-time",
+      "q": [
+        "How long should I preheat a pizza stone or steel?",
+        "Why does a pizza steel need such a long preheat?",
+        "Is 15 minutes enough to preheat for pizza?",
+        "pizza steel preheat time",
+        "How long do I heat the oven before pizza?",
+        "My oven says it's at temperature after 12 minutes. Can I launch?",
+        "A friend says 20 minutes is plenty to preheat a stone. Is that true?",
+        "Isn't preheating for an hour just a waste of electricity?",
+        "Is it the oven air or the steel that needs to be hot?",
+        "Why is the bottom of my pizza pale and floppy even at max temperature?",
+        "Tell me how long to preheat and how to know when the steel is ready.",
+        "Does a stone need a long preheat too, or only a steel?",
+        "I preheat oven 15 minute, pizza bottom is soft. What is wrong?",
+        "How can I check my pizza steel is actually hot enough?",
+        "What's the minimum preheat before launching a pizza on a stone?"
+      ],
+      "a": "Give a steel or stone 45 to 60 minutes at maximum temperature. The oven's air heats in ten minutes but the slab itself lags far behind, and it's the slab that bakes your base. Launching onto a half-heated steel is the number one cause of pale, floppy home pizza bottoms.",
+      "alt": [
+        "Forty-five minutes minimum at full blast. An infrared thermometer removes the guessing: you want the surface at the oven's ceiling temperature, not the air. Impatience here costs you the entire bottom crust.",
+        "Not twelve minutes, not twenty - forty-five to sixty at the oven's maximum. The beep that says the oven is at temperature is measuring air, and air is not what bakes your base; the slab underneath is still climbing for a good half hour after that. Launch too early and you get the classic pale, floppy bottom at supposedly full heat. If you own an infrared thermometer, point it at the surface and wait until it matches the dial.",
+        "The slab, not the air, is what you are waiting for. A steel or stone holds far more heat than the oven cavity and takes far longer to fill up - reckon on 45 to 60 minutes at full temperature, whichever material you own. Yes, it costs an hour of electricity; the alternative is a limp base, which costs the whole pizza. Ready means the surface reads the oven's ceiling temperature, not that the preheat light went out."
+      ]
+    },
+    {
+      "id": "leopard-spotting",
+      "q": [
+        "What is leopard spotting on pizza?",
+        "Why does Neapolitan crust have black spots?",
+        "What causes leoparding on the cornicione?",
+        "Are the charred spots on Neapolitan pizza burnt?",
+        "leopard spots pizza crust meaning",
+        "What are the little black dots on the edge of a good pizza?",
+        "Can I get leopard spotting in a home oven at 275?",
+        "A friend says the black spots mean the pizzaiolo burnt it. Is he right?",
+        "Isn't a charred crust just a sign of a sloppy pizzeria?",
+        "Is leoparding the same as a burnt pizza, or something different?",
+        "My home pizza rim comes out evenly pale gold - why no spots?",
+        "Explain what leopard spotting is and whether my kitchen oven can do it.",
+        "What does the dough need to be like to get leopard spots?",
+        "The pizza in the restaurant have black spots on the edge, is this bad?",
+        "How do pizzerias get that spotty rim and I can't?",
+        "So leopard spots come from the dough, not the oven, right?"
+      ],
+      "a": "Leoparding is the pattern of small charred blisters on a Neapolitan cornicione - thin-walled fermentation bubbles that char in seconds while the surrounding crust stays golden. It needs both a properly fermented, bubble-rich dough and ferocious heat; you cannot fake it at low temperature. Spots are the signature of a well-run oven, but char covering whole patches means the oven ran ahead of the pizzaiolo.",
+      "alt": [
+        "Those dark freckles are micro-blisters from fermentation charring in the 450-degree blast - proof of a live, well-proofed dough meeting real heat. A pale rim means weak heat or tired dough; solid black patches mean the pie overstayed. The leopard lives in between.",
+        "Leopard spots are not a burnt pizza, and anyone sending one back for them is confusing a signature with a fault. Each spot is a paper-thin fermentation bubble on the cornicione that chars in a second or two while the crust around it stays golden. It takes two things at once: a lively, well-fermented dough full of bubbles, and 430-480°C of radiant heat. A kitchen oven at 275 does not deliver that; it gives an even gold rim, which is the honest home result.",
+        "Both the dough and the oven, not one or the other - a bubbly, properly proofed dough put into a ferocious oven. Tired dough at 450°C gives a smooth dark rim; perfect dough at 275°C gives a pale, even one. Real leoparding, the fine freckling of a Neapolitan cornicione, needs pizza-oven heat, so a normal home oven cannot produce it; the steel-and-broiler trick gets you scattered charred blisters that gesture at it, and a portable 450-degree oven gets you the genuine article."
+      ]
+    },
+    {
+      "id": "launch-technique",
+      "q": [
+        "How do I launch a pizza off a peel without it sticking?",
+        "Why does my pizza stick to the peel?",
+        "What's the trick to sliding pizza into the oven?",
+        "How to use a pizza peel properly?",
+        "pizza stuck on peel launch",
+        "The dough is stretched onto the peel and now it won't move. What do I do?",
+        "Should I use flour or semolina on the peel?",
+        "My friend says you should build the pizza on the peel slowly and carefully. Is that right?",
+        "Isn't it safer to slide the pizza in with two or three gentle pushes?",
+        "Is it the sauce or the flour that makes pizza stick to the peel?",
+        "Why does my pizza fold in half when I put it in the oven?",
+        "Teach me how to get the pizza from the peel onto the stone in one piece.",
+        "How much time do I have between putting dough on the peel and launching?",
+        "I put pizza on peel, then toppings, then it not slide. Why?",
+        "What's the shake test before launching a pizza?",
+        "My pizza toppings ended up on the oven floor. What went wrong?"
+      ],
+      "a": "Work fast and keep it dry: dress the pizza on a lightly semolina-dusted peel in under a minute, give it a confidence shake to confirm it slides, then launch with one decisive forward-and-back snap. If it sticks, don't tip the peel vertical - lift the edge and blow or tuck a little semolina under. Hesitation and puddles of sauce near the edge are how toppings end up on the oven floor.",
+      "alt": [
+        "The peel is a countdown timer: once the dough lands on it, sauce and top in under a minute or moisture glues it down. Dust with semolina, shake to verify it moves before you commit, then one crisp jerk - launching timidly in two pushes folds the pizza in half. Ask me how everyone learns that.",
+        "Slow and careful is the wrong instinct on the peel; the peel is where you move fast. Dough sitting on a dusted board is drawing moisture through the flour the whole time, so dress it in under a minute - sauce, cheese, done - then shake. If it glides, launch in one decisive snap, forward and back. If it grips, lift an edge and slip a pinch of semolina underneath rather than tipping the peel and hoping. Two timid pushes fold the pizza; one confident jerk lands it flat.",
+        "Moisture is the enemy and time is how moisture wins. Semolina under the dough, minimal flour on top, toppings on in sixty seconds, and a quick shake to prove the pizza still slides before you commit - never launch on faith. Then one sharp forward-and-back motion, the peel pulled out from under the pie rather than the pie pushed off the peel. Sauce puddling near the edge or a long, fussy topping session are how dinner ends up on the oven floor."
+      ]
+    },
+    {
+      "id": "wooden-vs-metal-peel",
+      "q": [
+        "Wooden or metal pizza peel?",
+        "Which peel should I use for launching pizza?",
+        "Why do pizzerias use two different peels?",
+        "wood peel or metal peel launching",
+        "What is the small round metal peel for?",
+        "Can I launch a pizza from a metal peel?",
+        "My friend says metal peels are for launching and wood is for turning. Is that right?",
+        "Isn't a metal peel better because it's thinner and slides under more easily?",
+        "Which peel do I launch with and which do I turn with?",
+        "I only want to buy one pizza peel - which one?",
+        "Why does the dough stick more to a metal peel than to a wooden one?",
+        "Tell me which peel does which job in a pizzeria.",
+        "I have metal peel only, dough always sticks when I launch. Is the peel the problem?",
+        "What's the difference between a launching peel and a turning peel?",
+        "So the big wooden shovel is the one they spin the pizza with, right?"
+      ],
+      "a": "Two tools, two jobs: launch from wood, turn and retrieve with thin metal. Raw dough releases more easily from wood's slightly rough, moisture-wicking surface, while a thin perforated metal peel slips under a baking pizza for the mid-bake turn. If you buy only one for home, make it wood or a perforated aluminum launch peel.",
+      "alt": [
+        "Wood for launching - dough sticks to it least. Metal, thin and often perforated, for spinning the pie in the oven and pulling it out. Watch any Neapolitan pizzeria: the big wooden shovel and the small round steel one are a fixed couple.",
+        "Your friend has them reversed: wood launches, metal turns. Raw dough sticks least to wood's dry, slightly rough surface, which is why the big wooden shovel is what the pizza goes into the oven on. The small, thin metal peel, often round and perforated, is for slipping under the half-baked pie to rotate it and to pull it out, when the base is already set and nothing sticks to anything. Solid metal for launching is where beginners glue their pizzas down.",
+        "Thinner does not mean better for launching; it means better for turning. A thin metal blade slides under a pizza that is already baking beautifully, but wet raw dough grips smooth metal far more than it grips wood, so launching from a plain steel peel is the classic stuck-pizza setup. The pizzeria's fixed pair - wide wooden peel to launch, small round metal one to spin and retrieve - exists for exactly that reason. One-peel household: wood, or a perforated aluminum launch peel."
+      ]
+    },
+    {
+      "id": "turning-pizza",
+      "q": [
+        "Why do pizzaiolos rotate the pizza during baking?",
+        "Do I need to turn my pizza in the oven?",
+        "What's the point of spinning the pizza mid-bake?",
+        "turn pizza during bake why",
+        "How many times should I rotate the pizza?",
+        "One side of my pizza rim is black and the other is pale. What happened?",
+        "My friend says a good oven doesn't need the pizza turned. True?",
+        "Isn't opening the oven to turn the pizza going to let the heat out?",
+        "Should I turn the pizza in a home oven too, or only in a wood oven?",
+        "Why is one edge of the Neapolitan pizza always darker if they don't turn it?",
+        "Explain when and how to rotate a pizza in the oven.",
+        "What tool do pizzaiolos use to spin the pizza?",
+        "In my oven pizza is burn on one side only. Must I turn it?",
+        "Do I rotate the pizza in an electric pizza oven as well?",
+        "So the pizza just sits still for the whole bake, right?"
+      ],
+      "a": "Every oven has a hot side - in a wood oven, the side facing the fire. The pizzaiolo turns the pie a third at a time so the cornicione colors evenly instead of charring on one flank while the other stays blond. At home with a broiler the same applies: the element is never even, so give the pizza a half turn mid-bake.",
+      "alt": [
+        "Because ovens are lopsided. The flame side of a wood oven would incinerate one edge in thirty seconds, so the pie pirouettes - usually with a small metal turning peel, right at the oven mouth. Home broilers are just as uneven; turn once and the rim comes out uniform.",
+        "Yes, turn it, and yes, at home too. No oven is even - a wood oven has a flame side, a broiler has a hot spot under the element - so the claim that a good oven needs no turning is simply not how ovens work. In a pizza oven the pie is turned a third at a time with a small metal peel, over a 60-90 second bake. In a kitchen oven one half turn is plenty, and the rim comes out one color instead of two.",
+        "One black flank and one pale flank is the textbook symptom of a pizza that never moved. Ovens heat from a direction: the fire in a wood oven, the element in a home broiler, even the back wall of an electric deck. The pizzaiolo's fix is to spin the pie a third of a turn at a time until every side has faced the heat. The few seconds the door is open cost you far less than a burnt edge does; turn once at home and once is enough."
+      ]
+    },
+    {
+      "id": "parbaking",
+      "q": [
+        "What is par-baking a pizza base?",
+        "Should I pre-bake my pizza crust?",
+        "Does par-baking work for home pizza?",
+        "par-bake pizza dough before toppings",
+        "Do I bake the base first and then add toppings?",
+        "My friend says you should always blind-bake the crust so it doesn't go soggy. Is he right?",
+        "Isn't pre-baking the crust the secret to a crisp thin pizza?",
+        "Is par-baking normal for round pizza or only for tray pizza?",
+        "Why do al taglio shops bake the base without toppings first?",
+        "My base is raw in the middle when the top is done. Should I pre-bake it?",
+        "Tell me when par-baking is a good idea and when it isn't.",
+        "Is it my oven or my toppings that leave the middle undercooked?",
+        "Pizza with soggy center, I bake dough first without cheese, this is correct?",
+        "Does par-baking ruin a Neapolitan pizza?",
+        "What does a par-baked crust taste like?"
+      ],
+      "a": "Par-baking - baking the base briefly before topping - is how al taglio shops manage service, and it's legitimate there: the thick wet dough gets its structure first, toppings after. For a thin round pizza it's usually a crutch that produces a biscuity, twice-baked crust. Fix the real problem instead: hotter surface, drier toppings, faster bake.",
+      "alt": [
+        "In the al taglio world, standard practice - the trays are baked white, then finished with toppings to order. For a Neapolitan or tonda, par-baking betrays the style; if your base won't cook through in one pass, the oven setup or the topping load is the actual culprit.",
+        "Blind-baking is not the secret to a crisp thin pizza; it is the reason so many home pizzas taste like a cracker. Baking the disc twice dries it into a biscuity, stale-edged crust that no topping rescues. Par-baking belongs in one place - al taglio, where thick, wet tray dough is baked white for structure and finished to order. For a tonda or a Neapolitan, a raw middle means the steel was not hot enough or the toppings were too wet, and those are the things to fix.",
+        "Two questions decide it. Is it a tray pizza? Then yes, bake the base first - al taglio shops do exactly that and it is correct for the style. Is it a round thin pizza? Then no, and the soggy-center worry is solved upstream: a fully preheated steel or stone, drained tomatoes, less cheese, a faster bake. A pre-baked round base comes out twice-baked and dry, a crutch that fixes the symptom while the actual fault - a cool surface or a wet topping load - carries on."
+      ]
+    },
+    {
+      "id": "bake-time-styles",
+      "q": [
+        "How long does each pizza style bake?",
+        "What are typical pizza baking times?",
+        "How many minutes should a pizza bake?",
+        "Bake times for Neapolitan versus Roman pizza?",
+        "pizza bake time Neapolitan Roman home oven",
+        "Why does Neapolitan bake in 90 seconds while mine takes ages?",
+        "Is a 60-90 second bake the norm for all pizza or just Neapolitan?",
+        "My friend says a Roman tonda should bake in about a minute like a Neapolitan. Is that right?",
+        "Isn't a longer bake always crispier and therefore better?",
+        "How long should a pizza take in my home oven versus a pizzeria?",
+        "Which style bakes fastest and which slowest?",
+        "Give me the bake time and temperature for each style side by side.",
+        "How long does al taglio pizza stay in the oven?",
+        "In home oven my pizza needs 7 minutes, is this too long?",
+        "How long does pizza bake with the steel-and-broiler method compared to plain?",
+        "Does each pizza style have its own oven temperature?"
+      ],
+      "a": "Neapolitan: 60-90 seconds at 430-480°C. Roman tonda: two to three minutes around 300-330°C. Al taglio: 8-15 minutes near 280-300°C in the pan. Home oven with steel and broiler: three to five minutes. The rule: the thinner and softer the target, the hotter and shorter the bake.",
+      "alt": [
+        "From fastest to slowest: Neapolitan under two minutes in brutal heat, Roman round about three at 300 degrees, tray pizza up to a quarter hour, and a home steel-plus-broiler setup lands around four minutes. Style, temperature, and time form one triangle - move one corner and the others must follow.",
+        "Each style owns its pair of numbers, and mixing them up is how people end up disappointed. Neapolitan: 60 to 90 seconds at 430-480°C, soft and blistered. Roman tonda: two to three minutes at 300-330°C, crisp and cracker-thin - a Roman is not a one-minute pizza, however often you hear it. Al taglio: 8 to 15 minutes at 280-300°C in the tray. A home oven at 250-275°C on a plain steel: six to eight minutes; steel under a live broiler: three to five.",
+        "Seven minutes at home is not too long; it is about right. A kitchen oven at 250-275 degrees bakes a thin pizza on a steel in six to eight minutes, or three to five if the broiler trick is running. A pizzeria's Roman tonda takes two to three minutes at 300-330°C, and a Neapolitan 60 to 90 seconds at 430-480°C. The 90-second bake belongs to Neapolitan alone; longer is not automatically crispier, it is just what lower heat requires."
+      ]
+    },
+    {
+      "id": "oven-floor-vs-dome",
+      "q": [
+        "Why does a pizza oven have a dome?",
+        "How does heat work inside a wood-fired pizza oven?",
+        "What does the dome of a pizza oven do?",
+        "pizza oven dome floor heat",
+        "Does the pizza cook from the floor or from the top?",
+        "Why are Neapolitan ovens so low inside?",
+        "A friend says the flame is what cooks the pizza in a wood oven, not the floor. Is he right?",
+        "Isn't the dome just decoration on a wood-fired oven?",
+        "Is it the floor or the dome that cooks the cornicione?",
+        "Why do a bread oven and a pizza oven look so different inside?",
+        "Explain to me how a wood oven cooks a pizza from every side.",
+        "What is radiant heat doing in a pizza oven?",
+        "The oven have round roof - why this shape for pizza?",
+        "Where does the heat come from in a wood-fired pizza oven?",
+        "Why does the flame roll across the ceiling of a pizza oven?"
+      ],
+      "a": "A pizza oven cooks from three directions at once: the floor sears the base by conduction, the dome reflects radiant heat onto the toppings, and the flame rolling across the low ceiling gives the cornicione its final blister. The dome's shape is the engine - a low Neapolitan dome focuses ferocious radiant heat downward, which is why those ovens finish a pie in a minute.",
+      "alt": [
+        "Floor conduction for the base, dome radiation for the top, convection curling the flame overhead - three heats in one chamber. Neapolitan ovens keep the dome low so radiant heat hammers the toppings; bread ovens are taller and gentler. The geometry is the recipe.",
+        "Not the flame alone, and the dome is anything but decoration. The pizza gets three heats at once: the floor sears the base by conduction, the dome bounces radiant heat onto the toppings, and the flame licking across the low ceiling finishes the cornicione. Take away the floor and the base stays raw; take away the dome and the top never colors. Neapolitan ovens keep the ceiling low precisely so the radiant heat is brutal and the bake ends in about a minute.",
+        "Base from below, top from above, rim from the flame - three separate mechanisms in one chamber, which is why a pizza oven finishes a pie faster than any single heat source could. The floor is stored heat by contact; the dome is radiant heat reflected downward; the flame rolling over the ceiling is convection and radiation together. Bread ovens sit taller and cooler on purpose; the low Neapolitan dome is built to hammer the toppings."
+      ]
+    },
+    {
+      "id": "portable-ovens",
+      "q": [
+        "Are small outdoor pizza ovens worth it?",
+        "What about Ooni-style portable pizza ovens?",
+        "Can a garden pizza oven make real Neapolitan?",
+        "Should I buy a compact pizza oven?",
+        "portable gas pizza oven worth it Neapolitan",
+        "Can a little gas pizza oven really get to 450 degrees?",
+        "A friend says the small outdoor ovens are toys that can't make real pizza. Is he right?",
+        "Isn't a compact oven just a hotter version of my kitchen oven?",
+        "Why does my portable oven burn one side of the pizza before the other is cooked?",
+        "Is it the small stone or the flame that makes portable ovens tricky?",
+        "My second pizza from the outdoor oven came out pale underneath. Why?",
+        "Tell me the two habits that make a compact pizza oven work.",
+        "How long should I wait between pizzas in a portable oven?",
+        "I want to make Neapolitan pizza in garden, small gas oven is enough?",
+        "What's the difference between a portable oven and a home oven for pizza?",
+        "Do I need a full wood-fired oven, or does a portable one do the job?"
+      ],
+      "a": "The compact gas or pellet ovens genuinely reach 450-plus degrees, so yes - they close the one gap a kitchen oven cannot, and a practiced hand gets true leoparded Neapolitan out of them. Their weakness is a small, fast-cooling stone and a fierce near flame: turn early, turn often, and give the stone a few minutes to recover between pies.",
+      "alt": [
+        "They're the real thing in miniature: proper Neapolitan temperatures on a balcony. Two habits make them sing - rotate the pie more aggressively than you think (the flame is inches away) and let the stone reheat between bakes, because a small stone dumps its heat into each pizza.",
+        "Toys they are not. A compact gas or pellet oven reaches 450°C and beyond, which puts it in a different world from a kitchen oven stuck at 275 - it is the cheapest route to a real, leoparded Neapolitan at home. What they lack is mass: a small stone dumps its heat into each pizza and the flame sits inches from the rim. So turn early and often, and give the stone a few minutes to climb back before the next launch.",
+        "Both the flame and the stone, and they cause different problems. The flame is so close that one side chars before the other sets, so rotate the pie much sooner than you would in a big oven. The stone is small, so the first pizza drains it and the second comes out pale underneath unless you let it recover for a few minutes. Manage those two and a balcony oven produces genuine Neapolitan - no full masonry oven required."
+      ]
+    },
+    {
+      "id": "no-raw-flour-oven",
+      "q": [
+        "Why does my pizza taste bitter and smoky?",
+        "What's the burnt taste on my pizza bottom?",
+        "Why is there black dust on my pizza base?",
+        "bitter burnt taste pizza bottom flour",
+        "My pizza base is covered in black specks - is the oven dirty?",
+        "Why does the underside of my pizza taste like ash?",
+        "A friend says the bitter taste is from the steel being too hot. Is he right?",
+        "Isn't a bit of burnt flour on the bottom just part of the character?",
+        "Is it the bench flour or the semolina that burns on the pizza base?",
+        "Should I use more flour on the peel so it slides, or does that burn?",
+        "Explain why pizzaiolos brush the oven floor between pizzas.",
+        "How do I stop the bottom of my pizza tasting bitter?",
+        "Under my pizza is black powder and taste is bad. What is this?",
+        "Do I need to clean the pizza stone between pizzas?",
+        "What's the brass brush at the pizzeria for?"
+      ],
+      "a": "That acrid taste is usually burnt bench flour: excess flour or semolina on the base scorches instantly on a hot surface and coats the bottom in bitter soot. Brush the disc before launching, and scrape or brush the steel or stone between pizzas. In wood ovens the pizzaiolo sweeps the floor with a brass brush for exactly this reason.",
+      "alt": [
+        "Charred flour. Whatever dust rides along on the base carbonizes on contact and tastes like an ashtray. Dust lightly, brush off the excess, and clean the baking surface between rounds - the difference is immediate.",
+        "Blame the flour, not the steel. A hot surface is the goal; the acrid taste and black specks come from loose bench flour or semolina scorching the moment it touches it, not from the metal being too hot. Dust the peel only as much as it takes to slide, brush the excess off the disc before you launch, and sweep the steel or stone clean between pizzas. The brass brush at the pizzeria mouth does exactly this after every pie.",
+        "Either one burns - flour faster, semolina a little slower - and neither is character; a bitter, ashy underside is just carbonized dust. What survives the bake should be dough, not the powder you moved it around on. Keep the dusting light, brush the base before launching, scrape the surface between rounds, and the black powder and the ashtray taste disappear together. Your stone is not dirty; it is wearing what fell off your last pizza."
+      ]
+    },
+    {
+      "id": "recover-between-pizzas",
+      "q": [
+        "Why is my second home pizza worse than the first?",
+        "Does a pizza steel need to reheat between pizzas?",
+        "How long between pizzas in a home oven?",
+        "steel reheat between pizzas home oven",
+        "Can I bake pizzas back to back in a home oven?",
+        "The first pizza was perfect and the third was floppy. What changed?",
+        "A friend says once the oven's hot you can just keep going. Is that true?",
+        "Isn't the oven still at full temperature after the first pizza?",
+        "Is it the oven air or the steel that needs to recover between pizzas?",
+        "Why don't pizzerias have to wait between pizzas but I do?",
+        "Tell me how to pace a pizza night in a kitchen oven.",
+        "How do I bring the steel back up to temperature quickly between pizzas?",
+        "I make five pizza one after other, last ones have white bottom. Why?",
+        "How many minutes between pizzas on a home steel?",
+        "What's thermal mass got to do with the second pizza?"
+      ],
+      "a": "Each pizza pulls a chunk of stored heat out of the steel or stone, and a home oven replaces it slowly. Give the surface five to ten minutes back at full temperature between pies, or the second base comes out paler than the first. Pizzerias don't have this problem because a massive oven floor holds far more heat than one pizza can steal.",
+      "alt": [
+        "The slab is a heat battery and every bake drains it. Home ovens recharge slowly, so pace your pizzas - a short broiler blast between rounds tops the steel back up. Thermal mass is the whole game.",
+        "Not true, sadly - the oven air is back at temperature almost immediately, but the steel underneath is not, and the steel is what bakes the base. Every pizza pulls a large share of the slab's stored heat out with it, and a domestic oven puts it back slowly. Leave five to ten minutes at full heat between pies, a broiler blast if you have one, and the third pizza comes out as good as the first.",
+        "Pizzerias skip the wait because a massive oven floor stores far more heat than one pizza can steal; your steel does not have that luxury. Think of it as a battery each bake drains and the oven recharges at a trickle. Pace the evening: pizza, five to ten minutes of recovery at full temperature or under the broiler, next pizza. Launching back to back is how the first one is perfect and the last one is white underneath."
+      ]
+    }
+  ]
+}

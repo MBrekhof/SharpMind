@@ -1,0 +1,402 @@
+{
+  "facts": [
+    {
+      "id": "soggy-center",
+      "q": [
+        "Why is my pizza soggy in the middle?",
+        "How do I fix a soggy pizza center?",
+        "My homemade pizza has a wet middle - what am I doing wrong?",
+        "What causes a soggy pizza base?",
+        "How do I get a crisp center on homemade pizza?",
+        "Why does my pizza turn out wet under the toppings?",
+        "Is a soft centre on a Neapolitan pizza a mistake?",
+        "Neapolitan pizza should have a crisp middle, right?",
+        "I made a pizza in my 250 degree home oven with fresh mozzarella on it and the middle was a swamp. Why?",
+        "My friend says Neapolitan pizza is supposed to be crunchy all the way through and mine is wrong because the centre is soft. Is she right?",
+        "soggy middle pizza fix",
+        "Soft centre versus soggy centre - how do I tell if mine is a fault or the style?",
+        "Every time I put mushrooms on my pizza the base under them goes wet and limp. What is happening?",
+        "Tell me how to stop the middle of my pizza from going wet.",
+        "I cut my pizza straight out of the oven and by the time I sat down the centre was soft and damp. Did I do something wrong?",
+        "My pizza is wet in the middle, I use stone in oven at max heat, what is problem?",
+        "Isn't a soggy centre just what happens with thin crust at home?",
+        "Wet under the toppings but crisp at the edge - what does that pattern mean?",
+        "Does the pizza steel not being hot enough cause a soggy middle?"
+      ],
+      "a": "Soggy center has three usual suspects, in order: too-wet toppings (undrained mozzarella, watery sauce, raw mushrooms), a baking surface that isn't hot enough, and cutting the pizza the second it leaves the oven so steam soaks back in. Drain the cheese, thicken nothing but crush your tomatoes well, preheat the steel a full 45 minutes, and give the finished pie one minute on a rack before the knife touches it.",
+      "alt": [
+        "Water and weak heat. Every wet topping - fresh mozzarella, mushrooms, too much sauce - rains into the base while an underheated stone can't fight back. Fix the inputs (drain, pre-cook, less sauce) and the surface (long preheat, steel over stone), and rest the pizza a minute on a wire rack so the bottom doesn't steam itself soft.",
+        "Usually it's the toppings flooding a base that never got seared. Less sauce than feels right, cheese drained for hours, mushrooms pre-cooked - and the steel properly saturated with heat before the launch. If a Neapolitan-style soft center is what you actually made, though, that's not a bug: that style is meant to be tender.",
+        "Let me separate two things people mash together. A Neapolitan centre is soft by design - ninety seconds in a fierce oven leaves it tender, and anyone who tells you a Neapolitan should be crisp all the way through is describing a different pizza. Soggy is something else: a wet, limp base that folds under the slice. That comes from wet toppings (undrained mozzarella, watery sauce, raw mushrooms), a surface that never got hot, or slicing before the steam escapes. Drain, preheat the steel 45 minutes, rest the pie a minute on a rack."
+      ]
+    },
+    {
+      "id": "dough-tears",
+      "q": [
+        "Why does my pizza dough tear when I stretch it?",
+        "How do I stop dough ripping during shaping?",
+        "My dough keeps tearing - what's wrong?",
+        "What causes pizza dough to rip?",
+        "I stretched my dough straight from the fridge and it ripped in the middle. Why?",
+        "My dough sat in the fridge for six days and now it tears the second I touch it - is it dead?",
+        "dough rips when stretching",
+        "Is dough tearing a sign I used the wrong flour?",
+        "A hole opened in my pizza base while I was shaping it - do I throw it away?",
+        "My brother says tearing dough always means it needs more kneading. Is that true?",
+        "Isn't tearing just a sign I'm stretching too aggressively?",
+        "Does over-fermented dough tear more easily than fresh dough?",
+        "Walk me through what to do when a dough ball keeps ripping on the bench.",
+        "My dough is tearing when I make the pizza, I use flour from supermarket, what is wrong?",
+        "What makes the gluten so weak that the dough rips?",
+        "Can I still use a dough that has torn a little?"
+      ],
+      "a": "Tearing means the gluten network is either too weak or too tight: underdeveloped dough (not enough mixing or folding), a flour too weak for your fermentation length, dough still fridge-cold, or over-fermentation that has digested the structure. Warm the balls two hours, handle gently from the edge inward - and if it still tears, patch it, rest it five minutes, and continue. Dough forgives more than people think.",
+      "alt": [
+        "Four causes: weak flour, underdeveloped gluten, cold dough, or a ferment that went too long and ate the structure. Cold is the most common - straight-from-fridge dough tears like paper. If a hole opens, don't panic: pinch it shut, let the disc relax a few minutes, carry on.",
+        "Think of tearing as the gluten net giving up, and ask why it gave up. Too little development (a short mix, no folds) and the net was never built; a weak supermarket flour can't hold a long ferment; fridge-cold dough is brittle and rips when forced; a ferment that ran too long has eaten the structure. Warm the balls two hours before shaping, stretch from the edge inward with gentle hands, and when a hole opens, pinch it closed, rest five minutes and go on.",
+        "Nobody should bin a dough ball for a tear. Patch the hole by pinching, give the disc five minutes to relax, and finish the pizza. Then diagnose for next time: the most common cause is stretching cold dough straight from the fridge - it needs two hours to warm. Behind that come weak flour, underdeveloped gluten, and over-fermentation. Rough handling can rip a perfectly good dough as well, so work from the rim inward and let gravity do the thinning."
+      ]
+    },
+    {
+      "id": "pale-crust",
+      "q": [
+        "Why is my pizza crust pale?",
+        "How do I get more browning on pizza crust?",
+        "My crust won't color - what's the fix?",
+        "Why doesn't my pizza brown properly?",
+        "My pizza comes out cooked but completely blond, like unbaked bread. Why?",
+        "I ferment my dough for five days and the crust never browns any more. Is there a connection?",
+        "pale pizza crust no browning",
+        "Does a longer fermentation make the crust browner?",
+        "A friend says pale crust just means I need to bake it longer. Is that it?",
+        "Is it the oven or the dough when my crust stays white?",
+        "What is diastatic malt for in pizza dough?",
+        "Give me the checklist for getting colour on a home-oven pizza crust.",
+        "My crust is light colour after 8 minutes in oven, what to change?",
+        "Isn't oil in the dough what gives colour, rather than heat?",
+        "The top and bottom are both pale and the pizza took ten minutes - what's wrong?",
+        "Why do pizzeria pizzas get leopard spots while mine stays uniform beige?"
+      ],
+      "a": "Pale crust means either not enough heat or no sugars left to brown. If the bake takes over five minutes, your surface and oven need more preheat - browning is a temperature game first. If the heat is right but the crust stays blond, the dough over-fermented and the yeast ate the sugars; shorten the ferment or use slightly stronger flour. Home bakers can also cheat a touch of browning with a small percentage of malt.",
+      "alt": [
+        "Two currencies buy browning: heat and residual sugar. Crank the preheat and move the pizza closer to the broiler for the first problem. For the second - a dough fermented past its peak has no sugar left to caramelize - pull the fermentation back a day or add a pinch of diastatic malt. Oil in the dough also deepens color in slow home bakes.",
+        "Blond crust is almost always a heat problem before it's a dough problem, so start there. A pizza that needs more than five minutes is baking in an oven that never got hot enough: preheat longer, get the steel saturated, move the pie up toward the broiler. Only when the heat is right and the crust still won't colour do I blame the dough - a ferment pushed too long leaves no sugar for browning. Shorten it, use a slightly stronger flour, or add a small percentage of diastatic malt.",
+        "Check two suspects, in order. The oven first: if your bake runs long - over five minutes - the crust is drying rather than browning, and extra minutes won't fix that; more preheat and a higher rack will. The dough second: yeast that fermented for days ate the sugars that caramelise, which is why an over-fermented dough bakes pale even in a hot oven. Pull the ferment back or add a pinch of malt. Don't just leave it in longer - you'll get a cracker, not colour."
+      ]
+    },
+    {
+      "id": "burnt-bottom",
+      "q": [
+        "Why does my pizza bottom burn before the top is done?",
+        "How do I stop the base burning?",
+        "My pizza base chars but the cheese isn't melted - help?",
+        "My pizza base is black underneath but the top is still raw. What happened?",
+        "I have a steel at 300 degrees Celsius and the bottom scorches in a minute while the cheese is barely melted. What should I change?",
+        "pizza bottom burnt top undercooked",
+        "Is a burnt bottom a sign my dough is wrong?",
+        "Should I lower the oven temperature if the bottom keeps charring?",
+        "My friend told me to put the steel on the lowest rack so the bottom gets crisp. Now it burns - was he wrong?",
+        "In my portable gas oven the base goes black before the cheese melts. Fix?",
+        "What do I do when the base of the pizza cooks much faster than the toppings?",
+        "Bottom of pizza is burning but on top the cheese not melt, why this happens?",
+        "Isn't a charred base normal for Neapolitan?",
+        "Where should the steel go in the oven so the bottom doesn't burn?",
+        "Explain why the base burns before the top and how to balance it."
+      ],
+      "a": "The base outrunning the top means your surface is hotter than your air - classic with steel in a very hot oven, or a stone parked too low. Move the steel higher, closer to the broiler, so the top gets radiant heat while the base sears; or briefly kill the bottom element. In portable ovens, the same fix is turning the flame down and the pizza more often.",
+      "alt": [
+        "Your heat balance is upside down: conduction is winning, radiation is losing. Raise the rack so the broiler reaches the toppings, or shield the base by dropping oven floor temperature. Steel at 300°C under a weak top element will always char the bottom first - geometry, not bad luck.",
+        "When the base blackens while the cheese is still pale, the floor is simply hotter than the air above the pizza. It is not the dough's fault. A steel on the bottom rack in a 300°C oven pours conduction into the base while the toppings wait for radiation that never arrives. Move the steel to the top rack, right under the broiler, so the top cooks as fast as the bottom - or let the floor cool a little between pizzas. In a portable oven, turn the flame down and rotate more often.",
+        "Move it up. Nearly every burnt-bottom, raw-top story ends with the steel on the lowest rack, where the base sears and the toppings get nothing. Slide it to the highest position under the broiler and the balance flips. If the bottom still runs ahead, drop the floor temperature or briefly switch off the bottom element. A few dark leopard spots are fine; a black, bitter base under barely-melted cheese is a heat geometry problem, and geometry has a fix."
+      ]
+    },
+    {
+      "id": "dough-wont-stretch-thin",
+      "q": [
+        "Why won't my dough stretch thin without springing back?",
+        "How do I get pizza dough paper thin?",
+        "My dough keeps shrinking back - what do I do?",
+        "I balled my dough an hour ago and it snaps back like elastic. Why?",
+        "My dough was in the fridge overnight and I can't stretch it at all - it just pulls back. What's wrong?",
+        "dough springs back won't stretch",
+        "Is it bad flour when the dough refuses to stretch?",
+        "My mate says I should just use a rolling pin if the dough keeps shrinking back. Good idea?",
+        "Isn't dough that springs back a sign of great gluten?",
+        "How long after balling can I stretch the dough?",
+        "What's the trick when the dough keeps fighting me mid-stretch?",
+        "My dough is shrinking back when I stretch, I took it from fridge just now, what I do?",
+        "Describe how to relax a dough that won't stretch out.",
+        "Why can pizzaioli stretch dough so thin while mine shrinks back to a saucer?",
+        "Should I add more water if the dough won't stretch thin?"
+      ],
+      "a": "Spring-back is tight gluten: the dough is cold, freshly balled, or under-fermented. Give it time and warmth - two hours out of the fridge, at least four hours after balling - and it will relax into obedience. Mid-stretch trick: if it resists, walk away for ten minutes and return; resting relaxes gluten faster than wrestling it ever will.",
+      "alt": [
+        "The dough is telling you it's not ready - gluten needs time and temperature to relax. Re-balled or refrigerated dough is elastic like a trampoline. Patience is the entire fix: warm room, a couple of hours, and a ten-minute timeout whenever it fights back. Force just builds more tension.",
+        "Cold and young - that's the dough that springs back. Gluten that has just been balled or just left the fridge is wound tight, and every push stretches it only for it to pull straight back. Nothing is wrong with your flour or your water. Let the balls sit at room temperature for two hours, and never shape a ball less than four hours after balling. When it resists mid-stretch, stop, cover it, come back in ten minutes: rest relaxes gluten faster than any amount of pulling.",
+        "Don't reach for the rolling pin. Spring-back is gluten that hasn't had time to relax, and rolling just compresses the tension into a dense disc that shrinks anyway. The answer is time and warmth: two hours out of the fridge, a minimum of four hours after balling, then gentle stretching with a ten-minute pause whenever it fights you. A pizzaiolo's dough looks obedient because it was balled the right number of hours ago, not because of stronger hands."
+      ]
+    },
+    {
+      "id": "sticky-dough",
+      "q": [
+        "My pizza dough is too sticky to handle - what now?",
+        "How do I work with sticky high-hydration dough?",
+        "Why is my dough sticking to everything?",
+        "I made a 70 percent hydration dough and it sticks to my hands and the counter. Did I mess up?",
+        "Should I add more flour when the dough is too sticky?",
+        "sticky pizza dough fix",
+        "My mum says keep adding flour until the dough stops sticking. Is she right?",
+        "Isn't sticky dough a sign there's too much water in the recipe?",
+        "How do bakers handle wet dough without adding flour?",
+        "What tools help with dough that sticks to everything?",
+        "My dough is like wet glue on my fingers, what to do?",
+        "Is there a difference between tacky dough and dough that's actually too wet?",
+        "The dough is so wet it almost pours off the scraper - is that normal?",
+        "Show me how to handle a sticky dough without ruining it.",
+        "Why does my dough stick to the bench more than the recipe video shows?"
+      ],
+      "a": "First, diagnose: high-hydration dough is supposed to be tacky, and the cure is technique, not more flour. Wet or oiled hands, a dough scraper, and quick decisive movements beat kneading in extra flour, which just makes a drier, worse dough. If it's genuinely batter-like beyond the recipe's hydration, the flour was mismeasured or too weak - next time weigh everything and check the W.",
+      "alt": [
+        "Sticky is often correct - a 70 percent dough grips. Handle it like the professionals: bench scraper, wet hands, speed, confidence. Every spoon of 'fixing' flour degrades the crumb you fermented so carefully. Reserve real concern for dough that pours, which means a measurement went wrong.",
+        "Don't add flour. That's the instinct and it's the wrong one: a pizza dough at 70 percent hydration is meant to be tacky, and every handful of bench flour you knead in makes a drier, tighter crumb than the one you designed. Handle it instead - wet or lightly oiled hands, a bench scraper to lift and fold, quick confident moves. The only sticky dough that's actually wrong is one that pours like batter; that means the flour was mismeasured or too weak, so weigh it next time and check the W.",
+        "Tacky and too wet are different things, and only one needs fixing. Tacky is normal for a high-hydration dough - it grips your fingers but holds its shape on the bench. Handle it with a scraper, wet hands and speed. Too wet is dough that slumps and pours; that's a measurement error or a flour too weak for the water, and the fix is next batch, not this one: weigh everything and choose a stronger flour. Kneading in extra flour never rescues either - it just dries out the dough you fermented."
+      ]
+    },
+    {
+      "id": "giant-bubbles",
+      "q": [
+        "Why does my pizza get one giant bubble in the oven?",
+        "How do I prevent huge bubbles on pizza?",
+        "Should I pop the big bubbles while baking?",
+        "Should I dock my Neapolitan dough to stop the giant bubbles?",
+        "A huge balloon formed on my pizza and lifted the toppings off. Why does that happen?",
+        "big bubble pizza oven",
+        "My friend says Neapolitan pizzaioli dock the dough with a fork before baking. True?",
+        "Isn't docking the standard fix for a bubbling pizza?",
+        "Is it okay to pop the bubble with a fork while the pizza is in the oven?",
+        "I used a lot of flour when shaping and got one big bubble in the middle. Connected?",
+        "Why do I get a single enormous blister rather than lots of small ones?",
+        "My pizza make big bubble in middle every time, how to stop it?",
+        "Are small blisters on the crust a problem too?",
+        "Explain where the giant bubble comes from and how to prevent it.",
+        "Is a big bubble a sign of underproofed dough?"
+      ],
+      "a": "A single monster bubble usually means uneven proofing or a sealed patch of dough with trapped gas - often from shaping with too much flour so layers don't bond. Press the center firmly when shaping (the rim is the only place gas belongs on a Neapolitan), and pop bubbles unapologetically with a fork mid-bake if they balloon. Some blistering, though, is character - only the balloon is the enemy.",
+      "alt": [
+        "Trapped gas with nowhere to go - typically underproofed dough or a fold sealed with bench flour. Dock the center lightly if it happens repeatedly, and in the oven just stab the balloon; the pizza takes no offense. Note that Roman tonda bakers dock routinely, while Neapolitans rely on pushing all the gas to the rim.",
+        "People will tell you to dock the dough with a fork. For a Neapolitan that's the wrong reflex: docking flattens the base and kills the puff you wanted. The balloon comes from gas trapped in a sealed patch - uneven proofing, or a layer folded over bench flour so it never bonded. Fix the source: proof the balls evenly, shape with less flour, press the centre firmly so the gas migrates to the rim. If a balloon still rises in the oven, stab it and move on. Docking is a Roman tonda habit, not a Neapolitan one.",
+        "One big bubble, not many small ones, tells me the gas found a single sealed pocket - usually a fold glued shut with too much bench flour, sometimes uneven proofing. Small blisters are character; the balloon is the only enemy. Don't reach for a docker on a Neapolitan - the Neapolitan method is pushing all the gas outward into the cornicione with firm fingers in the centre, and it's the Roman tonda bakers who dock. Shape with less flour, press the middle, and pop any balloon mid-bake without guilt."
+      ]
+    },
+    {
+      "id": "cheese-burns-first",
+      "q": [
+        "Why does my cheese burn before the crust is ready?",
+        "How do I stop mozzarella browning too fast?",
+        "My cheese is done long before the base - what's wrong?",
+        "My mozzarella goes brown and oily before the crust has any colour. Why?",
+        "In my home oven at 250 degrees the cheese is burnt after four minutes but the base is still soft. What can I do?",
+        "cheese burns crust pale home oven",
+        "Should I put the cheese on later in the bake?",
+        "Is it the type of cheese making it burn so fast?",
+        "My sister says shredded mozzarella is fine for pizza and mine burns because the oven is bad. Which is it?",
+        "Why does cheese survive in a wood-fired oven but burn in mine?",
+        "Isn't burnt cheese just a sign the oven is too hot?",
+        "Cheese is burning but pizza dough not ready, why?",
+        "What's the trick to timing cheese on a home-oven pizza?",
+        "Do I move the pizza lower in the oven if the top cooks too fast?",
+        "Tell me how to keep mozzarella from browning in a slow bake."
+      ],
+      "a": "In a slow home bake, cheese endures the heat far longer than in Naples' ninety seconds - so it browns and greases out before the crust catches up. Add the cheese partway through the bake instead of at launch, use fresh mozzarella in bigger, moister pieces, or lower the rack away from the broiler. In short: at home, cheese timing is a separate decision, not part of the launch.",
+      "alt": [
+        "Because the bake is four minutes, not ninety seconds. Two clean fixes: cheese goes on at the halfway point, or the pizza starts lower in the oven and finishes high. Big torn pieces of well-drained fior di latte also survive longer than thin shreds, which incinerate.",
+        "Counterintuitively, your oven is too slow, not too hot. In Naples the cheese sees ninety seconds of heat; in a home oven it sits through a four-minute bake, and mozzarella - especially thin shreds - browns and leaks oil long before the base catches up. So stop treating cheese as part of the launch. Add it halfway through the bake, tear well-drained fior di latte into large moist pieces rather than shredding, and if the top still runs ahead, start the pizza on a lower rack and finish it high.",
+        "The problem is time under the broiler, so the fix is to shorten the cheese's time without shortening the crust's. Launch the pizza with sauce only, add the mozzarella at the halfway point, and let the base get the full bake it needs. Use big torn pieces of drained fior di latte - shreds have nothing to lose and simply incinerate. A wood-fired oven gets away with cheese at launch because the whole bake is ninety seconds; at four minutes you have to stagger it."
+      ]
+    },
+    {
+      "id": "reheating-pizza",
+      "q": [
+        "What's the best way to reheat pizza?",
+        "How do I reheat pizza without it going soggy?",
+        "Can leftover pizza be revived?",
+        "How should I warm up yesterday's pizza?",
+        "Is the microwave okay for reheating pizza?",
+        "I microwaved last night's pizza and it went rubbery and limp. What should I have done?",
+        "reheat pizza skillet",
+        "My flatmate swears by the microwave for leftover pizza. Is he right?",
+        "Isn't the oven the only proper way to reheat pizza?",
+        "Frying pan or oven for reheating pizza?",
+        "How do I get the base crisp again on cold pizza?",
+        "Why do I put a lid on the pan when reheating pizza?",
+        "I have cold pizza from yesterday, how to make it good again?",
+        "Walk me through reheating a slice properly.",
+        "What's the fastest way to reheat pizza that doesn't ruin it?",
+        "Can you reheat a whole pizza for several people at once?",
+        "Does reheating pizza in a pan really work or is it a myth?"
+      ],
+      "a": "The skillet method is unbeatable: pizza in a dry frying pan over medium heat, lid on, two to four minutes - the pan re-crisps the base while the trapped steam melts the cheese. The microwave does the exact opposite: steams the crust into cardboard. For a crowd, a hot oven with the pizza directly on the rack works; but pan-plus-lid is the connoisseur's resurrection.",
+      "alt": [
+        "Dry skillet, medium flame, lid on. Bottom crisps, top revives, three minutes, done - as close to time travel as leftover pizza gets. The microwave turns crust to warm rubber; use it only in emergencies you're prepared to regret.",
+        "Not the microwave - never the microwave, unless you enjoy a crust turned to warm rubber. The microwave steams the base and pulls every trace of crispness out of it. Put the slice in a dry frying pan over medium heat, lid on, two to four minutes: the pan crisps the bottom while the trapped steam melts the cheese. For a whole pizza for a crowd, a hot oven with the pizza straight on the rack does the job. Pan plus lid is still the best a leftover ever gets.",
+        "A frying pan and a lid, and you'll never look back. Medium heat, no oil, slice in, lid on - two to four minutes later the base is crackling and the cheese has softened again. That's the answer for a slice or two. A whole pie for several people goes into a hot oven directly on the rack. What you don't do is microwave it: the microwave does the reverse of what you want, steaming the crust limp and rubbery instead of re-crisping it."
+      ]
+    },
+    {
+      "id": "dough-keeps-fridge",
+      "q": [
+        "How long does pizza dough keep in the fridge?",
+        "Can I use pizza dough after five days?",
+        "How do I know if refrigerated dough is still good?",
+        "Is dough that has been in the fridge for a week still safe to use?",
+        "My dough smells like beer after four days in the fridge - has it gone bad?",
+        "pizza dough fridge how many days",
+        "My dad says pizza dough only lasts a day in the fridge. Is that right?",
+        "Isn't older dough always better because of more flavour?",
+        "What does dough look like when it's past its best?",
+        "The dough went a bit grey in the fridge - is it ruined?",
+        "Should I freeze or refrigerate spare dough balls I won't use this week?",
+        "How many days dough can stay in fridge before making pizza?",
+        "Tell me when refrigerated dough is at its peak and when it's over.",
+        "What temperature should the fridge be for cold fermenting dough?",
+        "Does day-five dough still make decent pizza?"
+      ],
+      "a": "Well-made dough with modest yeast keeps three, even four days refrigerated, improving for the first two. After that it drifts: grey tinge, alcohol smell, slack structure, less oven spring. Day-five dough that smells boozy but not foul still bakes - just flatter; genuinely off smells or pink discoloration mean the bin. Freezing balls at their peak, tightly wrapped, is the better long-term plan.",
+      "alt": [
+        "Two to three days is the sweet spot at 4°C - flavor keeps building. By day four or five the structure sags and the crumb tightens; it makes decent flatbread, not great pizza. Freeze extra balls right after balling instead: thawed overnight in the fridge, they're ninety percent as good.",
+        "Three days, and it's at its best around day two. Cold fermenting at 4°C builds flavour steadily for the first couple of days, then the structure starts to go: a grey tinge, a boozy smell, a slack ball, less spring in the oven. Nobody's dough lasts only a day, and nobody's improves forever - there's a peak and it comes early. By day five you get flatbread rather than proud pizza. Beyond this week? Freeze the balls right after balling instead; thawed overnight, they're nearly as good as fresh.",
+        "Grey and boozy is tired, not dangerous; pink or genuinely foul is the bin. Between those, use your judgement: dough with a modest yeast dose keeps three, even four days at 4°C, improving through day two and drifting afterward - it still bakes on day five, just flatter with a tighter crumb. Older isn't automatically better; the flavour keeps building only while the structure holds. If you know you won't bake within three days, freeze the balls at their peak, tightly wrapped, and thaw them overnight in the fridge."
+      ]
+    },
+    {
+      "id": "flat-cornicione",
+      "q": [
+        "Why is my cornicione flat instead of puffy?",
+        "How do I get a puffy pizza rim?",
+        "My crust edge won't rise - why?",
+        "I baked at 230 degrees in my home oven and the rim came out flat and dense. Why?",
+        "My rim goes flat even though the dough was well proofed. What else could it be?",
+        "flat pizza rim no puff",
+        "Should I roll the pizza with a rolling pin to get a nice even edge?",
+        "My uncle says a puffy rim is all about the oven. Is he right?",
+        "Isn't a flat rim just what you get from a home oven?",
+        "Where exactly should my fingers go when shaping so the edge stays puffy?",
+        "Why do pizzeria pizzas have that big airy rim while mine looks like a cracker at the edge?",
+        "My pizza edge is not rising in oven, it stays thin, what is reason?",
+        "Explain what makes the cornicione puff up.",
+        "Does over-proofed dough give a flat rim?",
+        "Is the rim flat because I pressed the edge while stretching?"
+      ],
+      "a": "A flat rim means the gas wasn't there or the heat didn't catch it: over- or under-fermented dough, shaping that flattened the edge, or an oven below the temperature where steam inflates the rim in seconds. Proof the balls until they're airy and relaxed, keep your fingers off the outer two centimeters while shaping, and bake as hot and high as your setup allows - the cornicione is fermentation plus preservation plus violence, in that order.",
+      "alt": [
+        "Three-part recipe for a proud rim: live, well-proofed dough (the gas), disciplined shaping that never presses the edge (the preservation), and fierce top heat (the inflation). Miss any one and the rim bakes flat. In home ovens the third is the usual culprit - get the pie closer to the broiler.",
+        "Picture the rim as a balloon: it needs gas, an intact skin, and a blast of heat to inflate. Gas comes from balls proofed until airy and relaxed - under- and over-fermented dough both leave you short. The skin survives only if your fingers stay off the outer two centimetres while shaping; a rolling pin destroys it entirely. Then the heat: home ovens rarely reach the temperature where steam inflates the rim in seconds, so get the pizza as high and close to the broiler as you can. That last one is most people's problem.",
+        "Heat is the usual culprit at home, but check all three in order. First the dough: was it proofed until airy? Over- or under-fermented balls have no gas to give. Second the shaping: did you press the edge? Every knuckle in the outer two centimetres costs you puff. Third the oven: a rim inflates in seconds only under fierce top heat, and most home setups run cool, so raise the rack and bake as hot as the oven allows. Dough and shaping buy a modest rim; heat buys a proud one."
+      ]
+    },
+    {
+      "id": "raw-taste-center",
+      "q": [
+        "Why does my pizza taste doughy in the middle?",
+        "The center of my pizza is undercooked - what's wrong?",
+        "How do I avoid a raw middle on thin crust?",
+        "The edges of my pizza were done but the middle was gummy and tasted of raw flour. Why?",
+        "I loaded the middle with toppings and it came out doughy under them. Is that the reason?",
+        "doughy centre thin crust pizza",
+        "My partner says a doughy middle means the oven isn't hot enough. Is that right?",
+        "Isn't a raw centre just from not baking long enough?",
+        "How thin should the middle of the pizza be compared to the edge?",
+        "Where should I put most of the toppings so the centre cooks through?",
+        "My pizza in centre is soft and not cooked, but the crust is brown. Why?",
+        "Describe how to stretch so the centre cooks at the same time as the rest.",
+        "Is a thick dome of dough in the middle the reason my centre stays raw?",
+        "Could the stone be cold in the centre even after preheating?",
+        "Why is the middle of my pizza cooked less than the edges every single time?"
+      ],
+      "a": "A gummy, raw-tasting center means the middle was thicker than the rest or buried under toppings - the edges finished while the center steamed. Stretch more evenly (the center should be the thinnest point, almost translucent for a tonda), lighten the load in the middle, and check that your surface is actually hot in the center where the pizza lands.",
+      "alt": [
+        "Uneven stretching, nine times out of ten - a dome of dough hiding under the sauce cooks last. Aim for a center you could nearly read through before topping, and put less in the middle than at the third-ring where people over-topping always aim. The tenth time, the stone's center never got hot: preheat longer.",
+        "Almost always the middle was thicker than the edge. Dough gets left in the centre when you stretch from the middle outward, and while the thin edge finishes, that dome steams under the sauce and stays gummy. The fix is in your hands: stretch so the centre is the thinnest point - for a tonda, nearly translucent - and keep the heaviest toppings away from the middle. If the stretch was even and it's still raw, the stone's centre never reached temperature; preheat longer before the next launch.",
+        "Your oven is probably fine; look at the stretch and the topping pile first. A raw, floury-tasting centre under a browned rim means the middle carried more dough or more toppings than the rest and cooked last. Thin the centre until you could almost read through it, put less in the middle than around the third ring, and it will finish with the edges. Only then do I blame heat - a stone can be hot at the edge and lukewarm where the pizza lands, and that cure is a longer preheat."
+      ]
+    },
+    {
+      "id": "freezing-pizza",
+      "q": [
+        "Can I freeze pizza dough?",
+        "What's the best way to freeze dough balls?",
+        "Does frozen pizza dough work well?",
+        "How long can dough balls stay in the freezer?",
+        "I froze my dough balls and they baked flat after thawing. Did I do it wrong?",
+        "freeze pizza dough balls thaw",
+        "My colleague says freezing kills the yeast and the dough is useless afterwards. True?",
+        "Isn't frozen dough always worse than fresh?",
+        "Should I freeze the dough before or after balling?",
+        "How do I thaw frozen pizza dough properly?",
+        "How long does thawed dough need before I can stretch it?",
+        "I want to freeze dough for pizza next month, how I should do it?",
+        "Explain how to freeze and revive pizza dough.",
+        "Do I oil the dough balls before freezing?",
+        "Frozen dough or a rushed same-day dough - which makes better pizza?"
+      ],
+      "a": "Freeze dough balls just after balling, each oiled lightly and sealed airtight - they keep a month or two. Thaw overnight in the fridge, then give them two to three hours at room temperature to wake up and finish relaxing. The yeast loses a little vigor, so expect slightly less oven spring; for the rim-obsessed, fresh is still king, but frozen beats rushed same-day dough easily.",
+      "alt": [
+        "Yes - ball, oil, bag, freeze, and you've got pizza on demand. The overnight fridge thaw plus a warm afternoon rest returns them to nearly full glory; only the last few percent of puff is lost. It comfortably outclasses any two-hour emergency dough.",
+        "Freezing does not kill the yeast; it only takes a little vigour out of it. Ball the dough, brush each ball lightly with oil, seal it airtight and freeze - it keeps a month or two. To revive, thaw overnight in the fridge and then give it two to three hours at room temperature to warm and relax before stretching. You'll notice slightly less oven spring, a few percent of rim lost, and that's the whole cost. A frozen ball made right still beats a two-hour emergency dough by a distance.",
+        "Straight after balling is the moment to freeze, when the dough is at its peak. Oil each ball lightly, bag it airtight, and it'll sit happily for a month or two. The thaw matters as much as the freeze: overnight in the fridge, never rushed, then two to three hours on the counter so the gluten relaxes and the yeast wakes up. Skip that room-temperature rest and the ball bakes flat. Done properly, frozen dough loses only a whisper of oven spring."
+      ]
+    },
+    {
+      "id": "bottom-burns-top-pale",
+      "q": [
+        "My pizza is black underneath and pale on top at the same time - what's going on?",
+        "How can the bottom burn while the top stays undercooked?",
+        "The base is charred and the cheese is barely melted. Which do I fix, the top or the bottom?",
+        "I have a pale crust AND a burnt base on the same pizza. Are they the same problem?",
+        "burnt bottom pale top pizza",
+        "My friend says a pale top and a burnt bottom both mean the oven is too hot. Is she right?",
+        "Isn't a burnt base just the oven being too hot overall?",
+        "Is it too much heat or too little heat when the base burns and the top is white?",
+        "In my 300 degree oven with a steel on the bottom rack, the base chars in ninety seconds and the top is still doughy. Why?",
+        "I put my steel on the lowest shelf, now bottom burns but top is not cooked, what to do?",
+        "Explain the top-versus-bottom heat balance in a home oven.",
+        "What does it mean when only the bottom of the pizza is overdone?",
+        "Should I turn the oven down when the bottom burns before the top colours?",
+        "Where does the broiler come into fixing a burnt-bottom, pale-top pizza?",
+        "Pale crust versus burnt bottom - do they need opposite fixes?"
+      ],
+      "a": "That pizza has two problems with opposite signs and one cause: the heat is coming from the wrong direction. The steel or stone delivers too much conduction to the base while the top element delivers too little radiation to the toppings. Don't turn the oven down - that makes the pale top worse. Move the steel to the top rack right under the broiler, run the broiler for the last minute, and the top catches up while the base gets a touch less. An all-over pale pizza is a different fault: that one wants more preheat everywhere.",
+      "alt": [
+        "People assume a burnt base means 'too hot' and turn the whole oven down, which just makes the top even paler. It's not overall heat, it's the balance: too much from below, too little from above. A steel on the bottom rack in a 300°C oven sears the base in ninety seconds while the toppings get nothing. Raise the steel to the highest position, use the broiler to finish, and the two sides of the pizza will finish together. The opposite fault - everything pale - is under-preheating and wants more heat, not this.",
+        "Two symptoms, one imbalance. Bottom heat comes from the surface by conduction; top heat comes from the broiler by radiation. If the base chars while the cheese stays pale, conduction is winning: the steel is too hot or too low, the top element too far away. So fix the geometry rather than the thermostat: steel on the top rack under the broiler, broiler on for the finish, or let the steel cool a little between pizzas. This is the mirror of the all-pale pizza, which is simply an oven that never got hot enough and needs a longer preheat.",
+        "Neither 'too hot' nor 'too cold' - the oven is lopsided. Your steel is hotter than your air. Rack position is the lever: the closer the pizza sits to the broiler, the more radiant heat the top gets, and a steel up high still holds plenty for the base. If it's still unbalanced, drop the floor temperature slightly or switch off the bottom element for a minute. Whatever you do, don't simply lower the oven and bake longer; you'll get a pale, dry top over a base that burned anyway."
+      ]
+    },
+    {
+      "id": "tears-vs-snaps-back",
+      "q": [
+        "What's the difference between dough that tears and dough that springs back?",
+        "My dough either rips or snaps back - how do I know which problem I have?",
+        "Are tearing and spring-back the same problem with pizza dough?",
+        "dough tears vs springs back",
+        "If my dough snaps back, is it overproofed or underproofed?",
+        "If my dough tears easily, is it overproofed or underproofed?",
+        "A friend says dough that tears needs more proofing time. Is that right?",
+        "Isn't dough that springs back just dough that's been over-fermented?",
+        "My dough was cold and it snapped back and then ripped when I forced it. What does that mean?",
+        "One ball tears like tissue and the next one won't stretch at all - how can both happen?",
+        "Explain how to read my dough: rips versus resists.",
+        "My dough is sometimes tearing, sometimes it is going back like rubber, which is the problem?",
+        "How do I tell overproofed dough from underproofed dough on the bench?",
+        "Does rough handling cause tearing or spring-back?",
+        "Which dough problem does resting fix - tearing or snapping back?"
+      ],
+      "a": "Read the dough like this: snaps back means too tight, tears means too weak. Snap-back is gluten that hasn't relaxed - under-fermented, freshly balled, or cold - and the fix is time and warmth: two hours out of the fridge, four hours after balling, a ten-minute rest when it fights. Tearing is structure that's gone or was never built - over-fermented, too slack, underdeveloped, or handled roughly - and more proofing makes it worse, not better. Cold dough does both: it resists, then rips when forced, so warm it before you diagnose anything.",
+      "alt": [
+        "They're opposites, so don't treat them the same. A friend who says tearing dough needs more proofing has it backwards: tearing is usually a ferment that ran too long and ate the gluten, or a slack, underdeveloped dough, or rough hands - and more time weakens it further. Spring-back is the other end - tight, elastic, under-fermented or just-balled gluten that needs rest and warmth to relax. The one confusing case is cold dough, both stiff and brittle; let it sit two hours at room temperature and it'll tell you which problem it really has.",
+        "Springs back: underproofed, cold, or too young after balling - the gluten is still coiled. It is not over-fermented, whatever anyone says; over-fermented dough goes slack, not springy. Tears: over-fermented, too weak, or torn by rough handling - the net has given up. Resting fixes spring-back and only worsens tearing, so diagnose before you cure. On the bench: if it pulls back toward the ball, wait; if it opens holes and won't hold a shape, shape it now, gently from the edge, and pull the ferment back next batch.",
+        "One test settles it. Warm the ball two hours first, because cold dough fakes both symptoms - it resists like rubber, then rips when forced. Then stretch gently. If it shrinks back and refuses to thin, it's tight: underproofed or too soon after balling; ten minutes' rest and a bit more time will loosen it. If it opens holes with barely any pull, it's weak: overproofed, underdeveloped, or too slack; the fix is a shorter ferment, better development or stronger flour next time - never more proofing today. Rough handling tears good dough too, so work from the rim inward."
+      ]
+    }
+  ]
+}

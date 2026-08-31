@@ -1,0 +1,587 @@
+{
+  "facts": [
+    {
+      "id": "san-marzano",
+      "q": [
+        "What are San Marzano tomatoes?",
+        "Why are San Marzano tomatoes special for pizza?",
+        "Are San Marzano tomatoes worth it?",
+        "What tomatoes should I use for pizza sauce?",
+        "Tell me about San Marzano DOP tomatoes.",
+        "What's the best tomato for Neapolitan pizza?",
+        "san marzano tomatoes - what's the fuss?",
+        "I found a can labeled 'San Marzano style' at the supermarket, is that the real thing?",
+        "My brother says any plum tomato is the same as San Marzano once it's crushed. Is he right?",
+        "Isn't San Marzano just an expensive name for a regular plum tomato?",
+        "Is it the San Marzano variety or the DOP seal that matters when I buy a can?",
+        "What should I look for on a can of tomatoes if I want the real Neapolitan stuff?",
+        "Explain San Marzano tomatoes to me like I'm standing in the tomato aisle right now.",
+        "san marzano dop pizza tomato",
+        "Where do San Marzano tomatoes come from?",
+        "What is special in san marzano tomato, why people say it is best for pizza?",
+        "Do I really need DOP tomatoes to make a good pizza sauce?",
+        "How do I tell a real San Marzano can from a fake one?"
+      ],
+      "a": "San Marzano is a plum tomato variety grown in the volcanic Agro Sarnese-Nocerino plain near Vesuvius - the DOP seal certifies both variety and origin. They're sweeter, less acidic, with fewer seeds and denser flesh than ordinary plum tomatoes, which is why they crush into a bright, balanced raw sauce. Real DOP cans are worth it; 'San Marzano style' from anywhere is often just marketing on a normal tomato.",
+      "alt": [
+        "The Neapolitan reference tomato: elongated plums from the volcanic soil below Vesuvius, protected by a DOP designation. Low acid, high sweetness, thin skin. Check the can for the DOP seal and consortium number - the name alone gets borrowed shamelessly.",
+        "A DOP-protected plum tomato from the Sarno valley. Its balance of sugar and acid is why Neapolitan sauce needs nothing but crushed tomato and salt. If the can doesn't say DOP, you're buying the legend, not the tomato.",
+        "Look for two things on the can: the DOP seal and a consortium number. Without them you may be paying for the name on a normal plum tomato - 'San Marzano style' is a marketing phrase, not a place. The real ones grow in the Agro Sarnese-Nocerino plain in the volcanic soil below Vesuvius: sweeter, lower in acid, fewer seeds, dense flesh, thin skin. Crushed by hand with a pinch of salt, they are the whole sauce."
+      ]
+    },
+    {
+      "id": "raw-sauce",
+      "q": [
+        "Should pizza sauce be cooked?",
+        "Why do Neapolitans use raw tomato sauce?",
+        "Do you cook tomato sauce before putting it on pizza?",
+        "How is authentic pizza sauce made?",
+        "What goes into Neapolitan pizza sauce?",
+        "Cooked sauce is better on pizza, isn't it?",
+        "So I should simmer my tomato sauce with garlic and oregano before it goes on the pizza, right?",
+        "My dad insists real pizza sauce has to be simmered for an hour. Is he right?",
+        "pizza sauce raw or cooked",
+        "I always cook my pizza sauce like pasta sauce and the pizza comes out heavy - why?",
+        "Isn't uncooked tomato on a pizza going to taste raw and sour?",
+        "Is it raw crushed tomato or a simmered sauce that goes on a Neapolitan pizza?",
+        "What do Neapolitan pizzaioli actually do to the tomato before it goes on the dough?",
+        "Walk me through making the sauce for a Margherita from a can of tomatoes.",
+        "Do I need to cook the tomato sauce for pizza or just put it like this from the can?",
+        "Why does my home pizza taste like pasta on bread?",
+        "How long should I cook pizza sauce?"
+      ],
+      "a": "Neapolitan sauce is never cooked before the oven: good canned tomatoes crushed by hand or passed through a mill, a pinch of salt, done. The sauce cooks exactly once - on the pizza, for ninety seconds - keeping it bright and fresh. Simmered, herb-loaded 'pizza sauce' is an American invention; on a thin crust it turns heavy and jammy.",
+      "alt": [
+        "Crush, salt, spread - that's the whole recipe. The oven does the cooking. Pre-simmering concentrates and dulls the tomato, and by the time it's baked twice you've got pasta sauce on bread. Save the garlic-oregano simmer for your spaghetti.",
+        "You do not simmer it. That belief - that a proper pizza sauce needs an hour on the stove with garlic and oregano - comes from American pizza, not from Naples, and it is exactly why so many home pizzas taste like pasta on bread. Neapolitan sauce is crushed tomato and a pinch of salt, spread raw, and cooked once: on the pizza, in about ninety seconds. Bright, fresh, done.",
+        "Zero minutes. If someone tells you real pizza sauce has to be cooked first, they're wrong - the tomato goes on raw. Crushed by hand or through a mill, salted, and that's it; the oven cooks it in ninety seconds and that single cooking is what keeps it tasting like tomato instead of something heavy and jammy. A simmered, herb-heavy sauce belongs on spaghetti, not on a thin crust."
+      ]
+    },
+    {
+      "id": "fior-di-latte-vs-bufala",
+      "q": [
+        "What's the difference between fior di latte and buffalo mozzarella?",
+        "Which mozzarella is right for pizza?",
+        "Fior di latte or bufala on a Margherita?",
+        "What kind of mozzarella do Neapolitan pizzerias use?",
+        "Should I use buffalo mozzarella on pizza?",
+        "Isn't buffalo mozzarella always the better choice since it's the premium one?",
+        "So a real Margherita has to be made with bufala, right?",
+        "fior di latte vs mozzarella di bufala",
+        "My friend says fior di latte is just cheap mozzarella and real pizzerias use buffalo. Is that true?",
+        "I put buffalo mozzarella on my pizza and the middle turned into soup. What happened?",
+        "Is it the cow's milk one or the buffalo one that Neapolitan pizzerias use every day?",
+        "What does 'fior di latte' actually mean on a pizza menu?",
+        "Explain the two mozzarellas to me before I go shopping for a Margherita.",
+        "Which mozzarella is more wet, fior di latte or bufala?",
+        "Why does bufala make pizza watery?",
+        "What is difference from bufala mozzarella and normal fresh mozzarella for pizza?",
+        "Should I grate mozzarella for pizza or tear it?"
+      ],
+      "a": "Fior di latte is fresh cow's-milk mozzarella; mozzarella di bufala campana DOP is made from water-buffalo milk - richer, tangier, and much wetter. Most Neapolitan pizzerias use fior di latte as the daily driver because bufala releases so much whey it can flood the pie. If you use bufala, drain it well, tear it, and add it late or even after the bake.",
+      "alt": [
+        "Cow versus buffalo. Bufala is the luxury: creamier, more acidic, gorgeous - and a water bomb that turns the center of a pizza into soup if you treat it like cow's milk cheese. Fior di latte is drier and better behaved in the oven. Both belong torn, never grated.",
+        "Premium does not mean better on the pizza. The idea that a proper Margherita needs buffalo mozzarella is wrong: fior di latte, the cow's-milk cheese, is what most Neapolitan pizzerias use day in, day out, and not to save money. Bufala - richer, tangier, made from water-buffalo milk - carries far more water and floods the center of the pie. Use it if you love it, but drain it, tear it, and add it late or after the bake.",
+        "Two milks, two cheeses: fior di latte is cow's milk, mozzarella di bufala campana DOP is water-buffalo milk. People assume the buffalo one is automatically the right choice because it costs more, and that's the mistake that turns a Margherita into soup - bufala is much wetter and lets all that whey go in the oven. Fior di latte is drier and better behaved, which is why it's the everyday cheese in Naples. Either way, tear it by hand; a grater has no business near fresh mozzarella."
+      ]
+    },
+    {
+      "id": "dry-the-mozzarella",
+      "q": [
+        "Why is my pizza watery under the cheese?",
+        "How do I stop fresh mozzarella making pizza soggy?",
+        "Should mozzarella be drained before baking?",
+        "How to prepare fresh mozzarella for pizza?",
+        "My pizza flooded in the middle - is it the sauce?",
+        "Isn't it the tomato sauce that makes the center of a pizza wet?",
+        "I put fresh mozzarella straight from the packet on my pizza and got a puddle. Why?",
+        "My wife says the dough was underbaked and that's why the middle was wet. Could it be the cheese instead?",
+        "Do I really need to drain mozzarella, or can I just use it straight from the brine?",
+        "How long before baking should I drain fresh mozzarella?",
+        "fresh mozzarella soggy pizza fix",
+        "Is it the mozzarella or the sauce I should blame for a soggy middle?",
+        "Tell me how to handle a ball of fresh mozzarella so it doesn't ruin my pizza.",
+        "Why does mozzarella make the pizza wet in home oven but not in pizzeria?",
+        "Can I use more cheese to cover a wet spot in the middle?",
+        "What is the number one cause of a wet pizza center at home?"
+      ],
+      "a": "Fresh mozzarella is mostly water and it lets go of it in the oven. Tear or slice it a few hours ahead, let it drain in a colander or on paper towels in the fridge, and scatter it sparsely. In a 90-second Neapolitan bake some milkiness is part of the style; in a slower home bake, undrained mozzarella is the number one cause of the swamp in the middle.",
+      "alt": [
+        "Drain it - tear the ball, let it weep into a sieve for a couple of hours, pat dry. The longer your bake, the more this matters: a home oven gives the cheese four minutes to release water instead of ninety seconds. Less cheese, better drained, beats more cheese every time.",
+        "Blame the cheese, not the sauce and not the dough. When the center of a home-baked pizza turns into a puddle, the usual suspect is fresh mozzarella that went on straight from its brine - it's mostly water and it gives all of it up during a four-minute bake. Tear it hours ahead, let it drain in a sieve in the fridge, pat it dry, and use less than you think. Piling on more cheese to hide a wet patch only adds more water.",
+        "Straight from the packet is the mistake. Fresh mozzarella that hasn't been drained will flood a slow home bake no matter how good the dough is - and people fix the wrong thing by baking longer or thinning the sauce. The real fix is simple: tear or slice the ball a few hours before, drain it on paper towels or in a colander in the fridge, and scatter it sparsely. In a ninety-second Neapolitan oven a little milkiness is the style; at home it's the swamp."
+      ]
+    },
+    {
+      "id": "low-moisture-mozz",
+      "q": [
+        "Is low-moisture mozzarella acceptable on pizza?",
+        "When should I use dry mozzarella instead of fresh?",
+        "What about block mozzarella for pizza?",
+        "Is low-moisture mozzarella wrong on pizza?",
+        "Can I use the block mozzarella from the supermarket on a Neapolitan pizza?",
+        "My roommate says fresh mozzarella is always better than the aged block stuff. Is he right?",
+        "Isn't fresh mozzarella just better than low-moisture, full stop?",
+        "Fresh or low-moisture mozzarella - which one for a New York style pie?",
+        "Why did my mozzarella go brown and rubbery instead of melting into white pools?",
+        "low moisture mozzarella pizza when",
+        "Which cheese for a long bake in a normal oven, fresh or the dry kind?",
+        "Explain to me when the dry mozzarella is the right cheese and when it is the wrong one.",
+        "I have only the hard mozzarella in block, is ok for pizza?",
+        "What kind of mozzarella do New York pizzerias use?",
+        "Why does my fresh mozzarella dry out on a slow-baked pizza?"
+      ],
+      "a": "Low-moisture mozzarella is the correct cheese for its native styles - New York and other long-baked pizzas - where fresh mozzarella would dry out or flood. On a Neapolitan it's simply the wrong cheese: it browns and toughens instead of melting into soft white pools. Match the cheese to the bake: fresh for fast and hot, low-moisture for long and moderate.",
+      "alt": [
+        "It's not a lesser cheese, it's a different tool. Aged, drier, saltier - built to survive a seven-minute deck bake and brown attractively. That same toughness is exactly what you don't want in a 90-second wood-fired bake, where fresh fior di latte stays tender.",
+        "Wrong question - the right question is what oven and how long. Low-moisture mozzarella was built for New York and other long, moderate bakes: it's aged, drier, saltier, and it survives seven minutes on a deck and browns nicely. Put it on a Neapolitan and it toughens instead of melting into soft pools; put fresh fior di latte on a slow-baked pie and it either dries out or floods. Fast and hot gets fresh, long and moderate gets low-moisture.",
+        "If your cheese browned and turned rubbery instead of melting white, you used low-moisture mozzarella in a fast, hot bake - the wrong tool, not a bad cheese. It's the correct choice for a New York pie or any seven-minute deck bake, where fresh mozzarella would flood or dry out. I'd never put it on a Neapolitan, and I'd never put fior di latte on a New York slice. Match the cheese to the bake and both behave."
+      ]
+    },
+    {
+      "id": "basil-timing",
+      "q": [
+        "When does basil go on a pizza, before or after baking?",
+        "Why is my basil black and bitter after baking?",
+        "Should basil be baked on a Margherita?",
+        "How do Neapolitans handle basil on pizza?",
+        "My basil comes out black and bitter every time - I put it on before baking like they do in Naples. What am I doing wrong?",
+        "Basil goes on before baking, always, right?",
+        "My friend says real Margherita basil has to go through the oven. Is he right?",
+        "Isn't burnt basil just part of the look of a Margherita?",
+        "Is it before the bake or after that basil goes on in a home oven?",
+        "basil pizza before after oven",
+        "Tell me exactly when to add basil to a Margherita in a normal kitchen oven.",
+        "I bake at 250 degrees Celsius for five minutes - when should the basil go on?",
+        "Why does basil survive in a Neapolitan oven but burn in mine?",
+        "How do I keep basil green on a pizza?",
+        "The basil become black on my pizza, what I do wrong?",
+        "Does basil need to be cooked on pizza to give flavor?"
+      ],
+      "a": "In Naples the basil goes on before the bake - in a 90-second oven the leaves perfume the pie and barely wilt. In a home oven's four-plus minutes, that same leaf burns black and bitter, so at home add basil the moment the pizza comes out; the residual heat releases the aroma. One rule, two answers, decided entirely by your bake time.",
+      "alt": [
+        "Depends on your oven. Ninety seconds in Naples: basil under the heat is fine, it's tradition. Four minutes at home: it carbonizes - lay the leaves on the finished pie instead and let the steam do the work. Burnt basil is a home-oven signature, and an avoidable one.",
+        "Black, bitter basil means the leaves went on before the bake in an oven that isn't a Neapolitan one. That's the wrong timing for a home oven - and yes, it's exactly what they do in Naples, but their bake is ninety seconds, not four or five minutes. In a home oven the fix is to add the basil after: lay the leaves on the pizza the moment it comes out and let the residual heat bloom the aroma. Same tradition, adjusted for your bake time.",
+        "Not before - not in your oven. People copy the Neapolitan habit of putting basil on before the bake and then wonder why it comes out carbonized; in a 90-second wood-fired oven the leaf barely wilts, in a four-plus-minute home bake it burns black and turns bitter. The right timing at home is after the bake, onto the hot surface, where the steam does the work. Charred basil is not part of the look, it's a timing error."
+      ]
+    },
+    {
+      "id": "olive-oil-finish",
+      "q": [
+        "When does olive oil go on a pizza?",
+        "Should I put olive oil on pizza before or after baking?",
+        "What oil finishes a Margherita?",
+        "Do I only put olive oil on pizza before the oven?",
+        "Isn't a drizzle of oil after baking just for looks?",
+        "My colleague says oil after the bake is a garnish and the real seasoning goes on before. Is she right?",
+        "So oil goes on once, before baking, and that's it?",
+        "Is it the pre-bake swirl or the after-bake drizzle that gives the peppery flavor?",
+        "olive oil pizza before after",
+        "Does the type of olive oil matter on a Margherita?",
+        "Explain the two moments for olive oil on a Margherita.",
+        "What is the 'agliara' in a Neapolitan pizzeria?",
+        "I put olive oil after baking, is this wrong or right?",
+        "Why does the oil I bake on the pizza taste flat?",
+        "Should I finish a pizza with raw olive oil?"
+      ],
+      "a": "Both moments have a job: a thin swirl of extra virgin before the bake carries flavor into the tomato as it cooks, and in Naples that pre-bake swirl from the copper 'agliara' is the tradition. A fresh thread after the bake adds the peppery top note that oven heat would have muted. Use real extra virgin - on something this simple, the oil is an ingredient, not a garnish.",
+      "alt": [
+        "Neapolitan tradition swirls it on just before the oven - and a finishing drizzle after the bake brings the fresh, grassy notes the heat strips away. Either way it must be extra virgin worth tasting; a Margherita has only four ingredients and the oil is one of them.",
+        "Not just before - and not just for looks. The claim that oil after the bake is a garnish gets it backwards: the pre-bake swirl from the copper agliara flavors the tomato as it cooks, but oven heat mutes the fresh, peppery notes of a good extra virgin, and only a thread added after the bake brings them back. Two moments, two jobs. And it has to be extra virgin - on a four-ingredient pizza the oil is an ingredient.",
+        "If the oil you bake onto a pizza tastes flat, that's the heat doing what heat does. So no, oil is not a once-before-the-oven-and-done ingredient: Naples swirls extra virgin on before the bake, that's tradition, and then a fresh drizzle after the bake restores the grassy, peppery top note that cooking stripped away. Skip the finishing oil and you've thrown away half of what you paid for. Use extra virgin worth tasting or don't bother."
+      ]
+    },
+    {
+      "id": "prosciutto-after",
+      "q": [
+        "Does prosciutto go on pizza before or after baking?",
+        "Why is my prosciutto dry and salty after baking?",
+        "How should cured ham be added to pizza?",
+        "When do you add prosciutto crudo?",
+        "Prosciutto goes on before the bake like any other topping, right?",
+        "My friend bakes his prosciutto on the pizza and says it gets nice and crispy. Is he doing it right?",
+        "Isn't prosciutto supposed to crisp up in the oven?",
+        "Is it prosciutto crudo or prosciutto cotto that goes on after the bake?",
+        "I baked a pizza with Parma ham on it and it came out like salty leather. What went wrong?",
+        "prosciutto crudo pizza after bake",
+        "Can I bake cooked ham on a pizza?",
+        "What other toppings follow the same rule as prosciutto?",
+        "Explain to me when the ham goes on a pizza, both kinds.",
+        "Should I put the prosciutto on the pizza before oven or after?",
+        "Why do pizzerias add the ham at the end?",
+        "How do I keep prosciutto soft on a pizza?"
+      ],
+      "a": "Prosciutto crudo goes on after the bake, draped over the hot pizza so it turns silky and aromatic without cooking. Baked, it turns to salty leather and its fat burns. The same rule covers most raw cured things: bresaola, culatello, and arugula too. Cooked ham (prosciutto cotto) is the one that bakes happily under the heat.",
+      "alt": [
+        "After - always after. The pizza's residual warmth softens the fat and blooms the aroma; the oven would cremate it into ham chips. Rule of thumb: if it was cured raw and sliced thin, it rides on top of the finished pie.",
+        "Not before - that's the mistake behind every strip of salty leather you've eaten on a pizza. Prosciutto crudo does not go through the oven: the fat burns and the meat dries into ham chips, and 'crispy' is just a polite word for ruined. Drape it over the pizza after the bake so the residual heat softens the fat and lifts the aroma. Cooked ham, prosciutto cotto, is the exception - that one bakes happily.",
+        "Two hams, two rules. Crudo - Parma, San Daniele, any raw-cured, thin-sliced ham - goes on after the bake, never before; baked, it turns salty and dry and its fat scorches. Cotto, the cooked ham, is a normal baked topping. The same after-the-bake rule covers bresaola, culatello, and arugula: if it was cured raw and sliced thin, it rides on top of the finished pie, where the warmth makes it silky."
+      ]
+    },
+    {
+      "id": "less-is-more",
+      "q": [
+        "How many toppings should a pizza have?",
+        "Why do Italian pizzas have so few toppings?",
+        "Can a pizza have too many toppings?",
+        "What's the right amount of toppings for thin crust?",
+        "Isn't more toppings just better value?",
+        "My friends say a pizza with only one topping is boring. Are they wrong?",
+        "I loaded my pizza with six toppings and the middle came out raw and wet. Why?",
+        "What's the maximum number of toppings for a thin crust pizza?",
+        "how many toppings thin crust",
+        "Why does my heavily topped pizza steam instead of crisp?",
+        "Explain to me why Italian pizzas look so empty compared to American ones.",
+        "Is it ok to put many toppings on a pizza, or is better to put less?",
+        "What happens to a thin base under a big pile of toppings?",
+        "Give me a rule for how much to put on a Neapolitan pizza.",
+        "Is a one-topping pizza a real pizza?",
+        "Why do the best pizzerias in Italy use so few ingredients?"
+      ],
+      "a": "Thin crust physics is unforgiving: every extra topping adds water and weight, and the base under a five-topping pile steams instead of baking. Two or three toppings beyond sauce and cheese is the ceiling; the best pizzas in Italy usually stop at one. Restraint isn't snobbery - it's structural engineering.",
+      "alt": [
+        "Fewer than you want. Each ingredient sheds water into a base that's two millimeters thick - overload it and the middle turns to wet cardboard. Naples built a two-hundred-year reputation on pizzas with essentially one topping done perfectly. The crust is not a buffet tray.",
+        "Two or three toppings beyond the sauce and cheese, and that's the hard ceiling for a thin crust. More is not better value - every extra ingredient sheds water onto a base about two millimeters thick, and under a six-topping pile the dough steams instead of baking, which is why your middle came out wet and raw. The best pizzas in Italy usually stop at one topping. Boring is not the word; disciplined is.",
+        "Less. A thin base carries a couple of toppings well and a pile of them badly - not a matter of taste but of water and weight. Naples built a two-hundred-year reputation on pizzas with one topping done perfectly, and a Margherita is not empty, it's finished. Two or three additions beyond tomato and cheese is where I stop, and I'd rather serve one perfect ingredient than five that turned the crust into wet cardboard."
+      ]
+    },
+    {
+      "id": "pineapple",
+      "q": [
+        "Does pineapple belong on pizza?",
+        "What do you think of Hawaiian pizza?",
+        "Is pineapple on pizza acceptable?",
+        "Pineapple on pizza - yes or no?",
+        "How do you feel about pizza Hawaii?",
+        "Hawaiian pizza is from Hawaii, right?",
+        "My colleague swears pineapple pizza is an Italian classic. Is that true?",
+        "Isn't pineapple on pizza just a matter of taste?",
+        "Why does pineapple make a thin crust pizza soggy?",
+        "pineapple pizza thin crust",
+        "Would you put pineapple on a Roman tonda?",
+        "I like pineapple on pizza - am I wrong?",
+        "Explain to me why pizza people hate pineapple so much.",
+        "Is it ok to put pineapple on pizza or is it very bad?",
+        "What's the technical problem with pineapple on a thin crust?",
+        "Can pineapple work on a thick American-style pizza?"
+      ],
+      "a": "I'll give you the honest craftsman's answer: pineapple is a wet, sugary topping on a base that hates water and burns sugar - on a thin crust it's an engineering problem before it's a taste crime. The Hawaiian belongs to the thick, sweet-sauced pizza world it came from (Canada, 1962, by the way - not Hawaii). On my Roman tonda? No. In your own kitchen? Your oven, your rules - I'll still respect you in the morning.",
+      "alt": [
+        "The Hawaiian was invented in 1962 by Sam Panopoulos, a Greek-Canadian - it has nothing to do with Italy or Hawaii. Technically, pineapple dumps juice and sugar onto a thin base, which means a soggy middle and scorched patches. I don't police anyone's dinner, but it won't come out of my oven.",
+        "Not from Hawaii and certainly not from Italy: the Hawaiian pizza was invented in Canada in 1962 by Sam Panopoulos, a Greek-Canadian. Taste is your business, but the physics isn't up for debate - pineapple dumps juice and sugar onto a thin base that hates water and burns sugar, so you get a soggy middle with scorched patches. On a thick, sweet-sauced American-style pizza it can work. On my tonda, no.",
+        "You're not wrong to like it; I'm just not going to make it. Pineapple is a wet, sugary topping, and a thin crust punishes exactly those two things: the juice steams the base and the sugar burns before the dough is done. It belongs to the thick-crust world it was born into - Canada, 1962, Sam Panopoulos, nothing to do with Hawaii or Naples. Your kitchen, your rules; my oven, my rules."
+      ]
+    },
+    {
+      "id": "anchovies",
+      "q": [
+        "Are anchovies good on pizza?",
+        "What's the deal with anchovy pizza?",
+        "Which pizzas traditionally use anchovies?",
+        "Why do Italians put anchovies on pizza?",
+        "Aren't anchovies just a joke topping nobody actually orders?",
+        "My friend says anchovies on pizza is an American thing. Is he right?",
+        "Why do anchovies on pizza taste so fishy and salty?",
+        "How do I prepare anchovies for pizza?",
+        "anchovy pizza traditional",
+        "Which is the traditional anchovy pizza in Italy?",
+        "Salt-packed or oil-packed anchovies for pizza?",
+        "Explain to me how to use anchovies on a pizza without it tasting like a fish market.",
+        "Did the original Neapolitan pizza have anchovies?",
+        "Is anchovies on pizza a real Italian thing or only for tourists?",
+        "How many anchovies should go on a pizza?"
+      ],
+      "a": "Anchovies are one of pizza's oldest and most honest toppings - the pizza napoletana with anchovies, capers, and oregano predates the tourist menu by a century, and Liguria's sardenaira is built on them. Good salt-packed anchovies dissolve into savory depth rather than tasting fishy. The bad reputation comes from cheap, harshly salted fillets - blame the supply chain, not the fish.",
+      "alt": [
+        "Historically central, not a novelty: the working-class Neapolitan pie was tomato, garlic, oregano, and anchovies long before mozzarella joined. Buy them salt-packed and rinse them, use few, and they act like parmesan - a savory bass note, not a fish course.",
+        "Older than mozzarella on pizza, and nowhere near a joke. The tomato-garlic-oregano-anchovy pizza was the working-class Neapolitan pie a century before the tourist menu existed, and Liguria's sardenaira is anchovies from the ground up - this is Italian tradition, not an American gag topping. The fishy, harsh version comes from cheap fillets; buy salt-packed, rinse them, use only a few, and they melt into a savory bass note the way parmesan does.",
+        "A few, salt-packed, rinsed. That's the whole technique, and it's the difference between a fish market and the oldest honest topping pizza has. Anchovies were on the Neapolitan pie before mozzarella was; the pizza napoletana with anchovies, capers, and oregano is the original, not a novelty. Their bad name comes from harshly salted, cheap fillets - blame the supply chain, not the fish. Done right they read as depth, not fishiness."
+      ]
+    },
+    {
+      "id": "quattro-formaggi",
+      "q": [
+        "What cheeses go on a quattro formaggi?",
+        "What is a four cheese pizza in Italy?",
+        "Which cheeses belong on quattro formaggi?",
+        "Is there an official recipe for quattro formaggi?",
+        "quattro formaggi cheeses",
+        "My friend says quattro formaggi has to have cheddar. Is he right?",
+        "Can I make a four cheese pizza with any four cheeses?",
+        "Why is my quattro formaggi a greasy, soggy mess?",
+        "How much cheese goes on a four cheese pizza?",
+        "Explain to me how to build a good quattro formaggi.",
+        "Does quattro formaggi have gorgonzola?",
+        "Which four cheese I need to buy for quattro formaggi pizza?",
+        "What's the logic behind the four cheeses on a quattro formaggi?",
+        "Is quattro formaggi a heavy pizza?",
+        "What cheese gives the four cheese pizza its punch?"
+      ],
+      "a": "There's no fixed law, but the classic Italian quartet is mozzarella for the melt, gorgonzola for the punch, and two from the fontina-provola-parmigiano family for nuttiness and salt. The craft is balancing one blue, one fresh, one melter, one aged - and keeping the total load thin, because cheese is the heaviest, wettest thing you can put on a crust.",
+      "alt": [
+        "Mozzarella plus gorgonzola are nearly constant; fontina, provola, taleggio, or parmigiano fill the other two chairs. One rule matters more than the roster: quattro formaggi is a flavor statement, not a quantity statement - four thin veils, not four blankets.",
+        "No official recipe - but there's a logic. The Italian quartet nearly always starts with mozzarella for the melt and gorgonzola for the punch, then fills the other two chairs from fontina, provola, taleggio, or parmigiano for nuttiness and salt. One fresh, one blue, one melter, one aged. Cheddar is not part of the Italian cast, and neither is quantity: cheese is the heaviest, wettest thing a crust can carry, so four thin veils, never four blankets.",
+        "A greasy, soggy quattro formaggi means too much cheese, not the wrong cheese. Keep the total load thin - cheese is the wettest, heaviest topping there is - and balance the roster: mozzarella to melt, gorgonzola to bite, and two of fontina, provola, taleggio, or parmigiano for nutty salt. There's no law fixing the four, but that shape - fresh, blue, melter, aged - is what makes it a flavor statement rather than a cheese pile."
+      ]
+    },
+    {
+      "id": "capricciosa",
+      "q": [
+        "What's on a pizza capricciosa?",
+        "Describe the capricciosa.",
+        "What is a capricciosa pizza?",
+        "capricciosa toppings",
+        "What's the difference between a capricciosa and a quattro stagioni?",
+        "Is a capricciosa the same as a quattro stagioni?",
+        "My friend says capricciosa and quattro stagioni are completely different pizzas. Is he right?",
+        "Why is the pizza called capricciosa?",
+        "Does a capricciosa have egg on it?",
+        "Explain to me what I'll get if I order a capricciosa in Italy.",
+        "What ham is on a capricciosa, cooked or cured?",
+        "What is the meaning of capricciosa pizza and what has on it?",
+        "Which pizza has ham, mushrooms, artichokes and olives?",
+        "Is the capricciosa an everything pizza?",
+        "Can you tell me the ingredients of a capricciosa?"
+      ],
+      "a": "The capricciosa - 'capricious' - is the everything-in-the-pantry classic: tomato, mozzarella, cooked ham, mushrooms, artichokes, and olives, sometimes with a boiled egg depending on the region. Same cast as the quattro stagioni, but mixed across the pie instead of arranged in four quadrants.",
+      "alt": [
+        "Ham, mushrooms, artichokes, olives over tomato and mozzarella - the whim of the pizzaiolo, as the name suggests. Order a quattro stagioni and you get the identical ingredients filed into neat quarters; the capricciosa just shuffles the deck.",
+        "Same ingredients as a quattro stagioni, different layout - so no, they're not completely different pizzas. A capricciosa is tomato, mozzarella, cooked ham, mushrooms, artichokes, and olives, sometimes with a boiled egg depending on the region, all mixed across the pie. The quattro stagioni takes that exact cast and files it into four quadrants. The name means 'capricious': the pizzaiolo's whim, whatever the pantry had.",
+        "Cooked ham, mushrooms, artichokes, and olives on tomato and mozzarella, with a boiled egg in some regions - that's the capricciosa, the closest thing Italy has to an everything pizza. Order it and you get the quattro stagioni's ingredients shuffled together instead of arranged in quarters; the two are siblings, not strangers. 'Capricciosa' means capricious, and the pie is exactly that: a whim, assembled from the pantry."
+      ]
+    },
+    {
+      "id": "diavola",
+      "q": [
+        "What is a pizza diavola?",
+        "What's the Italian pepperoni pizza called?",
+        "What makes a diavola spicy?",
+        "Is pepperoni pizza Italian?",
+        "So if I order pepperoni pizza in Italy I get the spicy salami, right?",
+        "My friend says pepperoni is an Italian sausage. Is he right?",
+        "Isn't diavola just the Italian name for pepperoni pizza?",
+        "What do I get if I ask for 'pepperoni' in an Italian pizzeria?",
+        "diavola pizza ingredients",
+        "What salami goes on a diavola?",
+        "Explain to me what a diavola is before I order one in Rome.",
+        "Which pizza to order in Italy if I want something spicy?",
+        "Is the salami on a diavola the same as American pepperoni?",
+        "What is diavola pizza, it is very hot?",
+        "Where does the salami on a diavola come from?",
+        "What does 'diavola' mean?"
+      ],
+      "a": "The diavola is Italy's spicy pizza: tomato, mozzarella, and salame piccante - spicy Calabrian salami - often finished with chili oil. Fun fact for travelers: order 'pepperoni' in Italy and you'll get peperoni, which means bell peppers. The American 'pepperoni' sausage is a US invention; its Italian ancestor is the diavola's salame.",
+      "alt": [
+        "Tomato, mozzarella, spicy salami - the devil's pizza. It's what Americans think they're ordering with pepperoni, except in Italian that word buys you bell peppers. Calabrian salame or 'nduja brings real heat with actual flavor behind it.",
+        "Not the Italian pepperoni pizza, exactly - the diavola is its ancestor, and 'pepperoni' is not an Italian sausage. Ask for pepperoni in Italy and you'll be served peperoni, which are bell peppers; the American pepperoni sausage was invented in the US. What you want is the diavola: tomato, mozzarella, and salame piccante, the spicy Calabrian salami, often finished with chili oil. Hot, yes - the name means the devil's pizza.",
+        "Order the diavola. It's tomato, mozzarella, and spicy Calabrian salami, sometimes with a slick of chili oil on top - the devil's pizza, and the closest thing to what Americans call pepperoni. The two aren't the same: American pepperoni is a US invention, and in Italian 'peperoni' means bell peppers, so asking for it in Rome gets you a vegetable. Calabrian salame, or 'nduja, brings real heat with flavor underneath."
+      ]
+    },
+    {
+      "id": "nduja",
+      "q": [
+        "What is 'nduja on pizza?",
+        "Tell me about nduja as a topping.",
+        "How is 'nduja used on pizza?",
+        "nduja pizza topping",
+        "What is nduja exactly and where is it from?",
+        "How much 'nduja should I put on a pizza?",
+        "Does 'nduja go on before or after the bake?",
+        "What goes well with 'nduja on pizza?",
+        "Isn't 'nduja just a spicy salami I can slice?",
+        "My friend says 'nduja is a sauce you spread over the whole pizza. Is he right?",
+        "Is 'nduja very spicy?",
+        "Explain to me how to use 'nduja without setting the pizza on fire.",
+        "I bought nduja, how I use it on pizza?",
+        "Why do pizzerias put honey on an 'nduja pizza?",
+        "What's the Calabrian spreadable salami called?"
+      ],
+      "a": "'Nduja is Calabria's spreadable, fiercely spicy pork paste - fermented, chili-loaded, and soft enough to dollop in small spoonfuls that melt into lava pockets in the oven. A little goes a long way: five or six hazelnut-sized dabs flavor a whole pie. It pairs beautifully with something sweet or fresh - honey, stracciatella, or ricotta after the bake.",
+      "alt": [
+        "A soft, spreadable Calabrian salami that's more chili than pork by feel. Dot it on sparingly before the bake and it melts into fiery pools. The fashionable move is 'nduja plus a drizzle of honey or a spoon of cold stracciatella on the finished pizza - fire and cream.",
+        "It doesn't slice and it isn't a sauce for the whole pie - 'nduja is a soft, spreadable pork paste from Calabria, fermented and loaded with chili, and you use it in dabs. Five or six hazelnut-sized spoonfuls before the bake are enough for an entire pizza; they melt into fiery little pools in the oven. Then tame it after the bake with something cool or sweet: cold stracciatella, a spoon of ricotta, or a thread of honey.",
+        "Sparingly, before the bake. 'Nduja is Calabria's fierce spreadable salami, more chili than pork by feel, and people who spread it edge to edge like a sauce end up with a pizza nobody can finish. Dot on five or six hazelnut-sized pieces and let the oven melt them into lava pockets. The honey you see on 'nduja pizzas isn't a gimmick - fire against sweet, or fire against cold stracciatella, is the whole idea."
+      ]
+    },
+    {
+      "id": "arugula",
+      "q": [
+        "When does arugula go on pizza?",
+        "Why do restaurants pile rocket on pizza?",
+        "How should rucola be used on a pizza?",
+        "Does arugula go in the oven with the pizza?",
+        "Isn't rocket supposed to bake on the pizza like spinach would?",
+        "My friend bakes rocket on his pizza. Is he doing it right?",
+        "I baked arugula on my pizza and it turned bitter and papery. Why?",
+        "arugula pizza before or after",
+        "Should I dress the arugula before putting it on pizza?",
+        "Which pizzas is arugula good on?",
+        "Explain to me the point of cold leaves on a hot pizza.",
+        "Rucola on pizza, I put it in oven or after?",
+        "How much arugula goes on a pizza?",
+        "Why is arugula always paired with prosciutto on pizza?",
+        "What does arugula do for a rich pizza like prosciutto and parmesan?"
+      ],
+      "a": "Arugula never sees the oven - it goes on after the bake, ideally dressed with a drop of oil, over something rich like prosciutto and parmesan shavings. Its pepperiness cuts fat beautifully; baked, it wilts into bitter green tissue in seconds. Cold, sharp leaves on a hot, rich pizza is the entire point of the combination.",
+      "alt": [
+        "Post-oven only, a light handful, on rich pies - crudo, burrata, bresaola. The contrast of cool peppery leaves against hot cheese is what you're buying. If it went through the oven, someone in that kitchen owes the rocket an apology.",
+        "After, and only after. Rocket is not spinach - it doesn't bake, it dies: seconds in the oven turn it into bitter, papery green tissue, which is exactly what happened to your pizza. The whole idea is contrast: a light handful of cool, peppery leaves, barely dressed with a drop of oil, landed on a hot, rich pie - prosciutto and parmesan shavings, burrata, bresaola. The leaves cut the fat. Cooked, they cut nothing.",
+        "Not in the oven. Someone who bakes rocket on a pizza is treating a salad leaf like a topping, and the leaf punishes them for it by wilting into bitter tissue in seconds. It belongs on the finished pizza, a light handful, ideally with a drop of oil, over something rich - crudo, parmesan, burrata. Cold and sharp against hot and fatty is the entire reason the combination exists."
+      ]
+    },
+    {
+      "id": "burrata",
+      "q": [
+        "How is burrata used on pizza?",
+        "Does burrata go in the oven?",
+        "What's the right way to top pizza with burrata?",
+        "Burrata goes on before the bake like mozzarella, right?",
+        "Isn't burrata just fancy mozzarella that I can bake the same way?",
+        "My friend bakes burrata on his pizza so it melts. Is he right?",
+        "I baked a burrata pizza and it turned into a puddle of expensive cream. What went wrong?",
+        "burrata pizza after bake",
+        "What base works best under a burrata pizza?",
+        "Is it burrata or mozzarella that goes through the oven?",
+        "Explain to me how to build a burrata pizza.",
+        "When do you add burrata to a pizza, before or after?",
+        "Burrata on pizza - in oven or no?",
+        "Why do restaurants put the whole burrata on top of the pizza at the end?",
+        "Can I put burrata in the oven with the pizza?"
+      ],
+      "a": "Burrata goes on whole or torn after the bake, never through the oven - its whole identity is that cold, creamy stracciatella heart, and heat destroys it in a minute. Bake the pizza with light tomato or even as a rossa, then crown it with the burrata so it slumps into the hot surface. The temperature contrast is the dish.",
+      "alt": [
+        "After the oven, always: land it in the center of the hot pie and tear it open at the table. Baked burrata is just expensive mozzarella soup. The classic build is a light tomato base, baked, then cold burrata, basil, and good oil on top.",
+        "Never before the bake. Burrata is not mozzarella you can treat the same way - it's a mozzarella shell around a cold, creamy stracciatella heart, and the oven destroys exactly that heart in about a minute, leaving expensive mozzarella soup. Mozzarella goes through the oven; burrata goes on after. Bake a light tomato base, or even a rossa, then land the burrata whole in the center of the hot pie and tear it open so it slumps into the surface.",
+        "A puddle of expensive cream is what baked burrata always becomes, so no - your friend is wrong, it does not go in the oven. The dish is the temperature contrast: hot pizza, cold cream. Bake the base with a light tomato or as a plain rossa, pull it out, crown it with the burrata whole or torn, add basil and good oil. Heat would only do to it what it does to any cream - ruin it."
+      ]
+    },
+    {
+      "id": "mushrooms",
+      "q": [
+        "Should mushrooms be cooked before going on pizza?",
+        "Why are my pizza mushrooms rubbery and wet?",
+        "How do I prep mushrooms for pizza?",
+        "Can I put raw mushrooms on pizza?",
+        "Isn't it fine to just slice mushrooms fresh onto the pizza like pizzerias do?",
+        "My friend says raw mushrooms roast fine on pizza. Is he right?",
+        "I put raw sliced mushrooms on my pizza and the crust underneath went soft. Why?",
+        "mushrooms pizza raw or cooked",
+        "How thin should mushrooms be sliced for pizza?",
+        "Do mushrooms need to be cooked for pizza in a wood-fired oven too?",
+        "Explain to me how to get mushrooms on a pizza that aren't wet.",
+        "Why my mushrooms on pizza are like rubber?",
+        "Is it the mushrooms or the sauce that made my crust soggy?",
+        "Give me the mushroom rule for a home oven.",
+        "What do mushrooms do to a thin crust if they go on raw?"
+      ],
+      "a": "Raw mushrooms are ninety percent water, and on a thin crust they release it exactly where you don't want it. Sauté them hard first - or slice them paper thin so they roast rather than stew. The exception is a blazing Neapolitan oven, where thin raw slices just about survive. In a home oven, pre-cooking is non-negotiable.",
+      "alt": [
+        "Cook them first. A hot pan drives off the water and concentrates the flavor; the oven then only has to brown them. Thrown on raw in a four-minute home bake, they poach in their own juice and take the crust down with them.",
+        "Not fine raw - not in a home oven. Mushrooms are about ninety percent water, and in a four-minute bake raw slices poach in their own juice and soak the crust beneath them - that soft patch under the mushrooms is the mushrooms, not the sauce. Sauté them hard first so the pan drives off the water, or slice them paper thin so they roast. The one exception is a blazing Neapolitan oven, where thin raw slices just about survive.",
+        "Pre-cook them, or slice them paper thin - one or the other, and in a home oven I'd do the first. People see a pizzeria scatter raw mushrooms and assume it works anywhere, but that pizzeria has a ninety-second oven; yours gives the mushrooms four minutes to stew. Ninety percent of a mushroom is water, and a thin crust has nowhere to put it. A hot pan concentrates the flavor and leaves the oven only the browning to do."
+      ]
+    },
+    {
+      "id": "marinara-garlic",
+      "q": [
+        "How is the garlic prepared on a pizza marinara?",
+        "What form does garlic take on a marinara?",
+        "Fresh or powdered garlic for marinara pizza?",
+        "Can I use garlic powder on a marinara?",
+        "Isn't it better to roast the garlic first so it's not harsh?",
+        "My friend says the garlic on a marinara is minced and mixed into the sauce. Is he right?",
+        "marinara pizza garlic sliced",
+        "Why did my garlic burn on the marinara in my home oven?",
+        "Is it sliced garlic or crushed garlic on a pizza marinara?",
+        "Explain to me the garlic on a marinara step by step.",
+        "What is on a pizza marinara besides tomato?",
+        "Does the garlic go on before or after the bake on a marinara?",
+        "How much garlic on marinara pizza and how to cut it?",
+        "Why is garlic considered a topping on the marinara and not a seasoning?",
+        "Is it fresh garlic or dried garlic for marinara pizza?"
+      ],
+      "a": "Thinly sliced fresh garlic, scattered raw over the tomato before the bake - never powder, never pre-cooked. In the 90-second inferno the slices just soften and perfume the tomato without burning. With oregano and good oil, that's the entire pizza; the marinara is proof that garlic is a topping, not a seasoning.",
+      "alt": [
+        "Sliced fresh, laid on the raw tomato, baked with the pie. The fast bake keeps it sweet - slower home ovens can brown it too far, so slice thicker or tuck it under the sauce. Garlic powder on a marinara would end friendships in Naples.",
+        "Raw, fresh, and sliced thin - not powder, not pre-roasted, not minced into the sauce. The garlic on a marinara is a topping in its own right, scattered over the crushed tomato before the bake with oregano and good oil; there's no mozzarella, so it has nothing to hide behind. In a ninety-second Neapolitan oven the slices soften and sweeten without burning. If yours burned at home, slice them thicker or tuck them under the tomato.",
+        "No powder - not ever, and not roasted first either. The marinara's garlic is fresh cloves sliced thin and laid raw on the tomato, where the fast bake softens them and perfumes the whole pizza. Mixing minced garlic into the sauce is a pasta habit, not a pizza one. Tomato, sliced garlic, dried oregano, oil, and the oven: that's the entire marinara, and the garlic is one of its ingredients, not a seasoning."
+      ]
+    },
+    {
+      "id": "fresh-vs-dried-oregano",
+      "q": [
+        "Fresh or dried oregano on pizza?",
+        "Why do pizzerias use dried oregano?",
+        "What herb goes on a marinara, fresh or dry?",
+        "Fresh herbs are always better, so fresh oregano on pizza, right?",
+        "Isn't dried oregano just a lazy substitute for fresh?",
+        "My friend says a real pizzeria would never use dried herbs. Is he right?",
+        "Is it oregano or basil that should be dried on a pizza?",
+        "oregano pizza dried fresh",
+        "Why does fresh oregano taste so weak on my marinara?",
+        "Explain to me the herb rules for pizza, which fresh and which dried.",
+        "Which oregano do I buy for pizza, the fresh in pot or the dry?",
+        "Should I use dried basil on pizza if oregano is dried?",
+        "Why does dried oregano taste more like pizza than fresh?",
+        "What herb goes on a sardenaira?",
+        "Can I swap the dried oregano on a marinara for fresh basil?"
+      ],
+      "a": "Dried, and that's not a compromise: Mediterranean oregano develops its character when dried, and it's the canonical herb on the marinara and the sardenaira. Fresh oregano is mild and grassy by comparison. So: basil fresh, oregano dried - each herb at its best form, and neither pretending to be the other.",
+      "alt": [
+        "Dried is the tradition and the better choice - drying concentrates oregano's oils into that resinous, sunbaked flavor. It's basil that must be fresh. Two herbs, opposite rules, zero exceptions worth making.",
+        "The 'fresh is always better' rule is exactly what leads people astray here - for oregano, the answer is dried. Fresh oregano is mild and grassy; it's the drying that concentrates Mediterranean oregano's oils into the resinous, sunbaked flavor that tastes like pizza, which is why the marinara and the sardenaira both use it dried. The opposite applies to basil, which must be fresh. Two herbs, opposite rules - and a pizzeria using dried oregano isn't cutting corners, it's doing it right.",
+        "If your fresh oregano tastes weak, that's because it is - this is the one herb that gets better dried, not worse. So don't let anyone tell you dried oregano is a lazy substitute: it's the canonical herb on the marinara and on Liguria's sardenaira, precisely because drying builds its character. Keep the rule simple. Oregano dried, basil fresh, and never dried basil on anything I'd serve."
+      ]
+    },
+    {
+      "id": "which-mozzarella-when",
+      "q": [
+        "Which mozzarella should I use for which pizza?",
+        "Fior di latte, bufala, or low-moisture - which one when?",
+        "I'm making a Margherita in a home oven, which mozzarella do I buy?",
+        "Which mozzarella for a New York style pizza, and which for a Neapolitan?",
+        "Is it bufala or fior di latte that has more water?",
+        "Rank the mozzarellas by water content for me.",
+        "My friend says you can use any mozzarella on any pizza. Is he right?",
+        "Isn't mozzarella just mozzarella?",
+        "Give me a simple decision rule for choosing mozzarella for pizza.",
+        "mozzarella choice pizza oven type",
+        "Which mozzarella is wetter and which is drier, and what does that mean for the bake?",
+        "I have three kinds of mozzarella in shop, fresh cow, buffalo and hard block, which one for my pizza?",
+        "Explain to me which mozzarella goes with which oven.",
+        "When is bufala the right choice on a pizza?"
+      ],
+      "a": "Ranked by water: bufala is the wettest, fior di latte is drier, low-moisture is driest - and that ranking is the decision. Fior di latte, fresh cow's milk, is the everyday Neapolitan cheese and the safe choice for any fast, hot bake. Bufala, from water-buffalo milk, is for a special Margherita when you'll drain it, tear it, and add it late or after the bake. Low-moisture belongs on New York and other long, moderate bakes, where fresh cheese would flood or dry out.",
+      "alt": [
+        "Mozzarella is not just mozzarella, and no, you can't put any of them on any pizza. Fast and hot - a Neapolitan bake - gets fresh fior di latte, drained. Long and moderate - a seven-minute New York deck bake - gets low-moisture, which is built to brown; on a ninety-second bake it just toughens. Bufala is the luxury for a special Margherita, richer and tangier but a water bomb: drain it, tear it, add it late or after the bake.",
+        "For a Neapolitan-style Margherita in your home oven: fior di latte, torn and drained well. It's the cheese Neapolitan pizzerias use daily, and it's drier than bufala, which carries so much whey it floods the center of a pie unless you drain it and add it late or after the bake. Save bufala for when the cheese is the point. Save low-moisture, the aged block, for New York style and any long bake - on a Neapolitan it browns and toughens instead of melting into soft white pools.",
+        "Think of it as water versus time. Bufala holds the most water, fior di latte less, low-moisture the least; the longer your bake, the drier your cheese should be. A ninety-second Neapolitan bake takes fior di latte, and so does a Neapolitan-style pizza at home if the cheese is drained well. A seven-minute New York bake takes low-moisture. Bufala is the special-occasion cheese for a Margherita, and it earns its place only drained, torn, and added late or after the bake."
+      ]
+    },
+    {
+      "id": "before-or-after-the-bake",
+      "q": [
+        "Which toppings go on before the bake and which go on after?",
+        "What goes on a pizza after it comes out of the oven?",
+        "Give me the list: what bakes and what doesn't.",
+        "Before or after the oven - how do I decide for each topping?",
+        "Is there a rule for which ingredients survive the oven and which don't?",
+        "pizza toppings before after bake list",
+        "I never know what to add after baking. What's the rule?",
+        "My friend puts everything on before baking, including prosciutto and burrata. Is he right?",
+        "Isn't everything supposed to go on the pizza before it bakes?",
+        "Which ingredients should never go in the oven on a pizza?",
+        "Explain to me what to put on the pizza before oven and what after.",
+        "What raw toppings are added at the end in a pizzeria?",
+        "Tomato, mozzarella, mushrooms, salami, anchovies, crudo, burrata, arugula, basil, oil - sort them into before and after.",
+        "Why do pizzerias finish some pizzas after they come out of the oven?"
+      ],
+      "a": "Before the bake: tomato, mozzarella, mushrooms (pre-cooked), salami, anchovies, cooked ham, sliced garlic, dried oregano, and a swirl of oil. After the bake: prosciutto crudo, burrata, arugula, fresh basil in a home oven, and the finishing thread of raw extra virgin. The rule behind the list: if it needs cooking or can take the heat, it goes in; if it's raw-cured, creamy, or a leaf, it rides on top of the finished pie, where the residual warmth does exactly enough.",
+      "alt": [
+        "Not everything goes on before - that's the habit that produces leather prosciutto, burrata soup, and black basil. Into the oven: tomato, mozzarella, salami, anchovies, cooked ham, mushrooms you've sauteed first, garlic slices, dried oregano, a little oil. Onto the finished pizza: crudo, burrata, arugula, basil (unless you have a ninety-second Neapolitan oven), and a fresh drizzle of extra virgin. Think of the oven as a stage the delicate things skip.",
+        "Two piles. Bakes: tomato, mozzarella, mushrooms (cooked first), salami and 'nduja, anchovies, prosciutto cotto, sliced garlic, dried oregano, the pre-bake oil swirl. Does not bake: prosciutto crudo, burrata, arugula, a home-oven basil leaf, stracciatella, honey, and the raw finishing oil. Your friend who bakes crudo and burrata is wrong about physics - the oven cremates cured ham and melts burrata's cold heart into nothing. Delicate things go on after.",
+        "Ask one question of each topping: does it need cooking, or does heat ruin it? Tomato, mozzarella, salami, anchovies, cooked ham, pre-cooked mushrooms, and sliced garlic need the bake and survive it. Prosciutto crudo, burrata, arugula, and raw extra virgin are ruined by it, so they go on after the pizza comes out - and so does basil unless your oven bakes in ninety seconds. The hot surface of a finished pizza is a second, gentler cooking stage. Use it."
+      ]
+    }
+  ]
+}
